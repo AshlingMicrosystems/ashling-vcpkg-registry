@@ -1,0 +1,29 @@
+{
+  "id": "tools/ashling/license-activator",
+  "version": "26.3.0",
+  "summary": "Ashling License Activator",
+  "description": "Standalone license activation tool for the Ashling RiscFree SDK.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/license-activator/LicenseActivator-win-x86_64-26.3.0.zip",
+        "sha256": "11e147225a9f5e8670487bffe63cd99ec0f8c00fefdcbc891e862dcd010082e9",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "."
+        },
+        "tools": {
+          "license-activator": "LicenseActivator.exe"
+        }
+      }
+    }
+  }
+}

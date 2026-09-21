@@ -1,0 +1,30 @@
+{
+  "id": "tools/ashling/build-tools",
+  "version": "3.27.7",
+  "summary": "Ashling build tools (CMake + BusyBox make)",
+  "description": "Bundled CMake and BusyBox-based make/sh/mkdir/rm toolset used to build projects with the Ashling RiscFree SDK.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/cmake-buildtools/build_tools-win-x86_64-3.27.7.zip",
+        "sha256": "a2c4e9df5b7504e522263d0229b4aca2b9f46ba289bc739605dd95432b940c6b",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": ["bin", "cmake/bin"]
+        },
+        "tools": {
+          "cmake": "cmake/bin/cmake.exe",
+          "make": "bin/make.exe"
+        }
+      }
+    }
+  }
+}

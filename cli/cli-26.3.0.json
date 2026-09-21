@@ -1,0 +1,29 @@
+{
+  "id": "tools/ashling/cli",
+  "version": "26.3.0",
+  "summary": "Ashling RiscFree headless CLI",
+  "description": "Headless Eclipse-based command-line application (ashling-cli) for the Ashling RiscFree SDK. Ships with its own bundled JRE.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/riscfree-cli/cli-win-x86_64-26.3.0.zip",
+        "sha256": "ae622789c130a63b69c839ce49180b3d24dc907fa8727d59e4ebb7b59a55b816",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "."
+        },
+        "tools": {
+          "ashling-cli": "ashling-cli.exe"
+        }
+      }
+    }
+  }
+}

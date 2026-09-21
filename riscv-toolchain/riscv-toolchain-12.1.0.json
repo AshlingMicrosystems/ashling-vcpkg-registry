@@ -1,0 +1,29 @@
+{
+  "id": "compilers/ashling/riscv-toolchain",
+  "version": "12.1.0",
+  "summary": "GNU RISC-V toolchain for Ashling RiscFree",
+  "description": "GCC-based riscv64-unknown-elf cross-compilation toolchain (gcc, gdb, binutils) bundled with the Ashling RiscFree SDK.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/risc-v-toolchain/riscv-toolchain-win-x86_64-12.1.zip",
+        "sha256": "4fd96a315c9c1a8f05256fb9ea8fbf536de6d797ada2373def94c9201298e5ed",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "bin"
+        },
+        "tools": {
+          "RISCV_TOOLCHAIN": "./bin"
+        }
+      }
+    }
+  }
+}

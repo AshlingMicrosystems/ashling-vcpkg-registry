@@ -1,0 +1,30 @@
+{
+  "id": "tools/ashling/risc-v-qemu",
+  "version": "6.2.50",
+  "summary": "QEMU for RISC-V (Ashling build)",
+  "description": "QEMU system emulator builds (riscv32/riscv64) packaged for the Ashling RiscFree SDK.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/risc-v-qemu/risc-v-qemu-win-x86_64-6.2.50.zip",
+        "sha256": "172e82a3f70e9df40fdb3ca1894b68d3cf29a4ba4a8c0ba534270ea1a6634767",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "."
+        },
+        "tools": {
+          "qemu-system-riscv32": "qemu-system-riscv32.exe",
+          "qemu-system-riscv64": "qemu-system-riscv64.exe"
+        }
+      }
+    }
+  }
+}
