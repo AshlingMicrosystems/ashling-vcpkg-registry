@@ -21,7 +21,7 @@
           "PATH": "bin"
         },
         "tools": {
-          "RISCV_TOOLCHAIN": "./bin"
+          "GCC_TOOLCHAIN_12_1_0": "./bin"
         }
       }
     }
