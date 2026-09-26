@@ -1,0 +1,21 @@
+{
+  "id": "examples/ashling/risc-v-sdk-examples",
+  "version": "1.0.0",
+  "summary": "Ashling RISC-V SDK example projects",
+  "description": "Getting-started example projects for the Ashling RISC-V SDK (one zip per project). The extension's Open example CMake project extracts one into a folder the user picks.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/examples/risc-v-sdk/examples.zip",
+        "sha256": "f59cc02b6571a31b683dfa67077c7e11c8f8945831bee460d20d84b30b343c62",
+        "strip": 1
+      }
+    }
+  }
+}

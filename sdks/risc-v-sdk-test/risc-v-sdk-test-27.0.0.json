@@ -2,7 +2,7 @@
   "id": "sdks/ashling/risc-v-sdk-test",
   "version": "27.0.0",
   "summary": "Ashling RISC-V SDK TEST",
-  "description": "Meta-package bundling the Ashling RISC-V toolchain, CLI, GDB server, license activator, and build tools.",
+  "description": "Meta-package bundling the Ashling RISC-V toolchain, CLI, GDB server, build tools and example projects.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",
@@ -20,6 +20,7 @@
     "ashling:compilers/ashling/riscv-toolchain": "12.1.0",
     "ashling:debuggers/ashling/gdbserver-riscv": "26.3.0",
     "ashling:tools/ashling/cli": "26.3.0",
-    "ashling:tools/ashling/build-tools": "3.27.7"
+    "ashling:tools/ashling/build-tools": "3.27.7",
+    "ashling:examples/ashling/risc-v-sdk-examples": "1.0.0"
   }
 }
