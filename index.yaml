@@ -7,6 +7,7 @@ items:
   - riscv-toolchain/riscv-toolchain-12.1.0.json
   - sdks/risc-v-sdk-qemu/risc-v-sdk-qemu-26.3.0.json
   - sdks/risc-v-sdk/risc-v-sdk-26.3.0.json
+  - sdks/risc-v-sdk/risc-v-sdk-27.0.0.json
 indexes:
   IdentityKey/id:
     keys:
@@ -16,6 +17,7 @@ indexes:
         - 2
       sdks/ashling/risc-v-sdk:
         - 7
+        - 8
       sdks/ashling/risc-v-sdk-qemu:
         - 6
       tools/ashling/build-tools:
@@ -38,6 +40,7 @@ indexes:
         - 5
         - 6
         - 7
+        - 8
       ashling/build:
         - 0
       ashling/build-tools:
@@ -56,15 +59,18 @@ indexes:
         - 4
         - 6
         - 7
+        - 8
       ashling/risc-v:
         - 4
         - 6
         - 7
+        - 8
       ashling/risc-v-qemu:
         - 4
       ashling/risc-v-sdk:
         - 6
         - 7
+        - 8
       ashling/risc-v-sdk-qemu:
         - 6
       ashling/riscv:
@@ -108,15 +114,18 @@ indexes:
         - 4
         - 6
         - 7
+        - 8
       risc-v:
         - 4
         - 6
         - 7
+        - 8
       risc-v-qemu:
         - 4
       risc-v-sdk:
         - 6
         - 7
+        - 8
       risc-v-sdk-qemu:
         - 6
       riscv:
@@ -127,23 +136,29 @@ indexes:
       sdk:
         - 6
         - 7
+        - 8
       sdk-qemu:
         - 6
       sdks:
         - 6
         - 7
+        - 8
       sdks/ashling:
         - 6
         - 7
+        - 8
       sdks/ashling/risc:
         - 6
         - 7
+        - 8
       sdks/ashling/risc-v:
         - 6
         - 7
+        - 8
       sdks/ashling/risc-v-sdk:
         - 6
         - 7
+        - 8
       sdks/ashling/risc-v-sdk-qemu:
         - 6
       toolchain:
@@ -178,11 +193,13 @@ indexes:
         - 4
         - 6
         - 7
+        - 8
       v-qemu:
         - 4
       v-sdk:
         - 6
         - 7
+        - 8
       v-sdk-qemu:
         - 6
   SemverKey/version:
@@ -195,6 +212,8 @@ indexes:
         - 3
         - 6
         - 7
+      27.0.0:
+        - 8
       3.27.7:
         - 0
       6.2.50:
@@ -209,6 +228,7 @@ indexes:
         - 2
       Ashling RISC-V SDK:
         - 7
+        - 8
       Ashling RISC-V SDK for QEMU:
         - 6
       Ashling RiscFree headless CLI:
@@ -235,6 +255,7 @@ indexes:
         - 5
         - 6
         - 7
+        - 8
       build:
         - 0
         - 4
@@ -271,18 +292,21 @@ indexes:
         - 5
         - 6
         - 7
+        - 8
       RISC-V:
         - 2
         - 4
         - 5
         - 6
         - 7
+        - 8
       RiscFree:
         - 1
         - 5
       SDK:
         - 6
         - 7
+        - 8
       server:
         - 2
       toolchain:
@@ -295,3 +319,4 @@ indexes:
         - 5
         - 6
         - 7
+        - 8
