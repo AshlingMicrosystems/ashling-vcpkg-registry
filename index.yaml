@@ -1,322 +1,138 @@
 items:
-  - build-tools/build-tools-3.27.7.json
-  - cli/cli-26.3.0.json
-  - gdbserver-riscv/gdbserver-riscv-26.3.0.json
-  - license-activator/license-activator-26.3.0.json
-  - risc-v-qemu/risc-v-qemu-6.2.50.json
-  - riscv-toolchain/riscv-toolchain-12.1.0.json
-  - sdks/risc-v-sdk-qemu/risc-v-sdk-qemu-26.3.0.json
-  - sdks/risc-v-sdk/risc-v-sdk-26.3.0.json
-  - sdks/risc-v-sdk/risc-v-sdk-27.0.0.json
+  [
+    cli/cli-26.3.0.json,
+    build-tools/build-tools-3.27.7.json,
+    gdbserver-riscv/gdbserver-riscv-26.3.0.json,
+    license-activator/license-activator-26.3.0.json,
+    risc-v-qemu/risc-v-qemu-6.2.50.json,
+    sdks/risc-v-sdk/risc-v-sdk-27.0.0.json,
+    sdks/risc-v-sdk/risc-v-sdk-26.3.0.json,
+    sdks/risc-v-sdk-qemu/risc-v-sdk-qemu-26.3.0.json,
+    sdks/risc-v-sdk-test/risc-v-sdk-test-27.0.0.json,
+    sdks/risc-v-sdk-test/risc-v-sdk-test-26.3.0.json,
+    riscv-toolchain/riscv-toolchain-12.1.0.json
+  ]
 indexes:
   IdentityKey/id:
     keys:
-      compilers/ashling/riscv-toolchain:
-        - 5
-      debuggers/ashling/gdbserver-riscv:
-        - 2
-      sdks/ashling/risc-v-sdk:
-        - 7
-        - 8
-      sdks/ashling/risc-v-sdk-qemu:
-        - 6
-      tools/ashling/build-tools:
-        - 0
-      tools/ashling/cli:
-        - 1
-      tools/ashling/license-activator:
-        - 3
-      tools/ashling/risc-v-qemu:
-        - 4
+      compilers/ashling/riscv-toolchain: [ 10 ]
+      debuggers/ashling/gdbserver-riscv: [ 2 ]
+      sdks/ashling/risc-v-sdk: [ 5, 6 ]
+      sdks/ashling/risc-v-sdk-qemu: [ 7 ]
+      sdks/ashling/risc-v-sdk-test: [ 8, 9 ]
+      tools/ashling/build-tools: [ 1 ]
+      tools/ashling/cli: [ 0 ]
+      tools/ashling/license-activator: [ 3 ]
+      tools/ashling/risc-v-qemu: [ 4 ]
     words:
-      activator:
-        - 3
-      ashling:
-        - 0
-        - 1
-        - 2
-        - 3
-        - 4
-        - 5
-        - 6
-        - 7
-        - 8
-      ashling/build:
-        - 0
-      ashling/build-tools:
-        - 0
-      ashling/cli:
-        - 1
-      ashling/gdbserver:
-        - 2
-      ashling/gdbserver-riscv:
-        - 2
-      ashling/license:
-        - 3
-      ashling/license-activator:
-        - 3
-      ashling/risc:
-        - 4
-        - 6
-        - 7
-        - 8
-      ashling/risc-v:
-        - 4
-        - 6
-        - 7
-        - 8
-      ashling/risc-v-qemu:
-        - 4
-      ashling/risc-v-sdk:
-        - 6
-        - 7
-        - 8
-      ashling/risc-v-sdk-qemu:
-        - 6
-      ashling/riscv:
-        - 5
-      ashling/riscv-toolchain:
-        - 5
-      build:
-        - 0
-      build-tools:
-        - 0
-      cli:
-        - 1
-      compilers:
-        - 5
-      compilers/ashling:
-        - 5
-      compilers/ashling/riscv:
-        - 5
-      compilers/ashling/riscv-toolchain:
-        - 5
-      debuggers:
-        - 2
-      debuggers/ashling:
-        - 2
-      debuggers/ashling/gdbserver:
-        - 2
-      debuggers/ashling/gdbserver-riscv:
-        - 2
-      gdbserver:
-        - 2
-      gdbserver-riscv:
-        - 2
-      license:
-        - 3
-      license-activator:
-        - 3
-      qemu:
-        - 4
-        - 6
-      risc:
-        - 4
-        - 6
-        - 7
-        - 8
-      risc-v:
-        - 4
-        - 6
-        - 7
-        - 8
-      risc-v-qemu:
-        - 4
-      risc-v-sdk:
-        - 6
-        - 7
-        - 8
-      risc-v-sdk-qemu:
-        - 6
-      riscv:
-        - 2
-        - 5
-      riscv-toolchain:
-        - 5
-      sdk:
-        - 6
-        - 7
-        - 8
-      sdk-qemu:
-        - 6
-      sdks:
-        - 6
-        - 7
-        - 8
-      sdks/ashling:
-        - 6
-        - 7
-        - 8
-      sdks/ashling/risc:
-        - 6
-        - 7
-        - 8
-      sdks/ashling/risc-v:
-        - 6
-        - 7
-        - 8
-      sdks/ashling/risc-v-sdk:
-        - 6
-        - 7
-        - 8
-      sdks/ashling/risc-v-sdk-qemu:
-        - 6
-      toolchain:
-        - 5
-      tools:
-        - 0
-        - 1
-        - 3
-        - 4
-      tools/ashling:
-        - 0
-        - 1
-        - 3
-        - 4
-      tools/ashling/build:
-        - 0
-      tools/ashling/build-tools:
-        - 0
-      tools/ashling/cli:
-        - 1
-      tools/ashling/license:
-        - 3
-      tools/ashling/license-activator:
-        - 3
-      tools/ashling/risc:
-        - 4
-      tools/ashling/risc-v:
-        - 4
-      tools/ashling/risc-v-qemu:
-        - 4
-      v:
-        - 4
-        - 6
-        - 7
-        - 8
-      v-qemu:
-        - 4
-      v-sdk:
-        - 6
-        - 7
-        - 8
-      v-sdk-qemu:
-        - 6
+      activator: [ 3 ]
+      ashling: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+      ashling/build: [ 1 ]
+      ashling/build-tools: [ 1 ]
+      ashling/cli: [ 0 ]
+      ashling/gdbserver: [ 2 ]
+      ashling/gdbserver-riscv: [ 2 ]
+      ashling/license: [ 3 ]
+      ashling/license-activator: [ 3 ]
+      ashling/risc: [ 4, 5, 6, 7, 8, 9 ]
+      ashling/risc-v: [ 4, 5, 6, 7, 8, 9 ]
+      ashling/risc-v-qemu: [ 4 ]
+      ashling/risc-v-sdk: [ 5, 6, 7, 8, 9 ]
+      ashling/risc-v-sdk-qemu: [ 7 ]
+      ashling/risc-v-sdk-test: [ 8, 9 ]
+      ashling/riscv: [ 10 ]
+      ashling/riscv-toolchain: [ 10 ]
+      build: [ 1 ]
+      build-tools: [ 1 ]
+      cli: [ 0 ]
+      compilers: [ 10 ]
+      compilers/ashling: [ 10 ]
+      compilers/ashling/riscv: [ 10 ]
+      compilers/ashling/riscv-toolchain: [ 10 ]
+      debuggers: [ 2 ]
+      debuggers/ashling: [ 2 ]
+      debuggers/ashling/gdbserver: [ 2 ]
+      debuggers/ashling/gdbserver-riscv: [ 2 ]
+      gdbserver: [ 2 ]
+      gdbserver-riscv: [ 2 ]
+      license: [ 3 ]
+      license-activator: [ 3 ]
+      qemu: [ 4, 7 ]
+      risc: [ 4, 5, 6, 7, 8, 9 ]
+      risc-v: [ 4, 5, 6, 7, 8, 9 ]
+      risc-v-qemu: [ 4 ]
+      risc-v-sdk: [ 5, 6, 7, 8, 9 ]
+      risc-v-sdk-qemu: [ 7 ]
+      risc-v-sdk-test: [ 8, 9 ]
+      riscv: [ 2, 10 ]
+      riscv-toolchain: [ 10 ]
+      sdk: [ 5, 6, 7, 8, 9 ]
+      sdk-qemu: [ 7 ]
+      sdk-test: [ 8, 9 ]
+      sdks: [ 5, 6, 7, 8, 9 ]
+      sdks/ashling: [ 5, 6, 7, 8, 9 ]
+      sdks/ashling/risc: [ 5, 6, 7, 8, 9 ]
+      sdks/ashling/risc-v: [ 5, 6, 7, 8, 9 ]
+      sdks/ashling/risc-v-sdk: [ 5, 6, 7, 8, 9 ]
+      sdks/ashling/risc-v-sdk-qemu: [ 7 ]
+      sdks/ashling/risc-v-sdk-test: [ 8, 9 ]
+      test: [ 8, 9 ]
+      toolchain: [ 10 ]
+      tools: [ 0, 1, 3, 4 ]
+      tools/ashling: [ 0, 1, 3, 4 ]
+      tools/ashling/build: [ 1 ]
+      tools/ashling/build-tools: [ 1 ]
+      tools/ashling/cli: [ 0 ]
+      tools/ashling/license: [ 3 ]
+      tools/ashling/license-activator: [ 3 ]
+      tools/ashling/risc: [ 4 ]
+      tools/ashling/risc-v: [ 4 ]
+      tools/ashling/risc-v-qemu: [ 4 ]
+      v: [ 4, 5, 6, 7, 8, 9 ]
+      v-qemu: [ 4 ]
+      v-sdk: [ 5, 6, 7, 8, 9 ]
+      v-sdk-qemu: [ 7 ]
+      v-sdk-test: [ 8, 9 ]
   SemverKey/version:
     keys:
-      12.1.0:
-        - 5
-      26.3.0:
-        - 1
-        - 2
-        - 3
-        - 6
-        - 7
-      27.0.0:
-        - 8
-      3.27.7:
-        - 0
-      6.2.50:
-        - 4
+      3.27.7: [ 1 ]
+      6.2.50: [ 4 ]
+      12.1.0: [ 10 ]
+      26.3.0: [ 0, 2, 3, 6, 7, 9 ]
+      27.0.0: [ 5, 8 ]
   StringKey/summary:
     keys:
-      Ashling build tools (CMake + BusyBox make):
-        - 0
-      Ashling License Activator:
-        - 3
-      Ashling RISC-V GDB server:
-        - 2
-      Ashling RISC-V SDK:
-        - 7
-        - 8
-      Ashling RISC-V SDK for QEMU:
-        - 6
-      Ashling RiscFree headless CLI:
-        - 1
-      GNU RISC-V toolchain for Ashling RiscFree:
-        - 5
-      QEMU for RISC-V (Ashling build):
-        - 4
+      Ashling build tools (CMake + BusyBox make): [ 1 ]
+      Ashling License Activator: [ 3 ]
+      Ashling RISC-V GDB server: [ 2 ]
+      Ashling RISC-V SDK: [ 5, 6 ]
+      Ashling RISC-V SDK for QEMU: [ 7 ]
+      Ashling RISC-V SDK TEST: [ 8, 9 ]
+      Ashling RiscFree headless CLI: [ 0 ]
+      GNU RISC-V toolchain for Ashling RiscFree: [ 10 ]
+      QEMU for RISC-V (Ashling build): [ 4 ]
     words:
-      (Ashling:
-        - 4
-      (CMake:
-        - 0
-      +:
-        - 0
-      Activator:
-        - 3
-      Ashling:
-        - 0
-        - 1
-        - 2
-        - 3
-        - 4
-        - 5
-        - 6
-        - 7
-        - 8
-      build:
-        - 0
-        - 4
-      build):
-        - 4
-      BusyBox:
-        - 0
-      CLI:
-        - 1
-      CMake:
-        - 0
-      for:
-        - 4
-        - 5
-        - 6
-      GDB:
-        - 2
-      GNU:
-        - 5
-      headless:
-        - 1
-      License:
-        - 3
-      make:
-        - 0
-      make):
-        - 0
-      QEMU:
-        - 4
-        - 6
-      RISC:
-        - 2
-        - 4
-        - 5
-        - 6
-        - 7
-        - 8
-      RISC-V:
-        - 2
-        - 4
-        - 5
-        - 6
-        - 7
-        - 8
-      RiscFree:
-        - 1
-        - 5
-      SDK:
-        - 6
-        - 7
-        - 8
-      server:
-        - 2
-      toolchain:
-        - 5
-      tools:
-        - 0
-      V:
-        - 2
-        - 4
-        - 5
-        - 6
-        - 7
-        - 8
+      Activator: [ 3 ]
+      Ashling: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+      BusyBox: [ 1 ]
+      CLI: [ 0 ]
+      CMake: [ 1 ]
+      GDB: [ 2 ]
+      GNU: [ 10 ]
+      License: [ 3 ]
+      QEMU: [ 4, 7 ]
+      RISC: [ 2, 4, 5, 6, 7, 8, 9, 10 ]
+      RISC-V: [ 2, 4, 5, 6, 7, 8, 9, 10 ]
+      RiscFree: [ 0, 10 ]
+      SDK: [ 5, 6, 7, 8, 9 ]
+      TEST: [ 8, 9 ]
+      V: [ 2, 4, 5, 6, 7, 8, 9, 10 ]
+      build: [ 1, 4 ]
+      build): [ 4 ]
+      for: [ 4, 7, 10 ]
+      headless: [ 0 ]
+      make: [ 1 ]
+      make): [ 1 ]
+      server: [ 2 ]
+      toolchain: [ 10 ]
+      tools: [ 1 ]
