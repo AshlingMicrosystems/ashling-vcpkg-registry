@@ -12,7 +12,7 @@
   "demands": {
     "windows": {
       "install": {
-        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/risc-v-toolchain/riscv-toolchain-win-x86_64-12.1.zip",
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/risc-v-toolchain/riscv-toolchain-win-x86_64-12.1.zip.zip",
         "sha256": "4FD10486085D28D31FB82FD5366F38DE5011030776235336E38AE6A915BE7AC4",
         "strip": 1
       },
