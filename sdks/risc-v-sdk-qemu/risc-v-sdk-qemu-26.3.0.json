@@ -2,7 +2,7 @@
   "id": "sdks/ashling/risc-v-sdk-qemu",
   "version": "26.3.0",
   "summary": "Ashling RISC-V SDK for QEMU",
-  "description": "Meta-package bundling the Ashling RISC-V toolchain, CLI, QEMU emulator, license activator, and build tools.",
+  "description": "Meta-package bundling the Ashling RISC-V toolchain, CLI, QEMU emulator, license activator, build tools and example projects.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",
@@ -21,6 +21,7 @@
     "ashling:tools/ashling/risc-v-qemu": "6.2.50",
     "ashling:tools/ashling/license-activator": "26.3.0",
     "ashling:tools/ashling/cli": "26.3.0",
-    "ashling:tools/ashling/build-tools": "3.27.7"
+    "ashling:tools/ashling/build-tools": "3.27.7",
+    "ashling:examples/ashling/risc-v-qemu-sdk-examples": "1.0.0"
   }
 }
