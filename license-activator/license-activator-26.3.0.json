@@ -13,7 +13,7 @@
     "windows": {
       "install": {
         "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/license-activator/LicenseActivator-win-x86_64-26.3.0.zip",
-        "sha256": "11e147225a9f5e8670487bffe63cd99ec0f8c00fefdcbc891e862dcd010082e9",
+        "sha256": "7A4E700445658C887E39345BC82F53014BA3014ED2449BC522681060716DAF30",
         "strip": 1
       },
       "exports": {
