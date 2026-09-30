@@ -19,8 +19,8 @@
       "exports": {
         "paths": {
           "PATH": ["gdbserver-riscv"],
-          "DEVICE_DB": ["debugger/common/devices_db"],
-          "GUI_OPXD_LIB": ["debugger/guiopxdif.dll"]
+          "DEVICE_DB": ["common/devices_db"],
+          "GUI_OPXD_LIB": ["guiopxdif.dll"]
         },
         "tools": {
           "ash-riscv-gdb-server": "gdbserver-riscv/ash-riscv-gdb-server.exe"
