@@ -21,7 +21,9 @@
           "PATH": "bin"
         },
         "tools": {
-          "GCC_TOOLCHAIN_12_1_0": "./bin"
+          "GCC_TOOLCHAIN_12_1_0": "./bin",
+          "riscv64-unknown-elf-gcc": "bin/riscv64-unknown-elf-gcc.exe",
+          "riscv64-unknown-elf-gdb": "bin/riscv64-unknown-elf-gdb.exe"
         }
       }
     }
