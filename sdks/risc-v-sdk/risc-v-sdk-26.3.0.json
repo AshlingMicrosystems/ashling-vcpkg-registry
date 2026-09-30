@@ -21,6 +21,7 @@
     "ashling:debuggers/ashling/gdbserver-riscv": "26.3.0",
     "ashling:tools/ashling/license-activator": "26.3.0",
     "ashling:tools/ashling/cli": "26.3.0",
-    "ashling:tools/ashling/build-tools": "3.27.7"
+    "ashling:tools/ashling/build-tools": "3.27.7",
+    "ashling:examples/ashling/risc-v-sdk-examples": "1.0.0"
   }
 }
