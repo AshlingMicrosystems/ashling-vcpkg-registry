@@ -1,0 +1,26 @@
+{
+  "id": "sdks/ashling/vsd-sdk",
+  "version": "26.4.0",
+  "summary": "Ashling VSD SDK",
+  "description": "Meta-package bundling the Ashling RISC-V GDB Server, RISC-V GNU GCC Toolchain, build tools and example projects for VSD devices.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "registries": [
+    {
+      "kind": "artifact",
+      "name": "ashling",
+      "location": "https://github.com/AshlingMicrosystems/ashling-vcpkg-registry/archive/refs/heads/main.zip"
+    }
+  ],
+  "requires": {
+    "ashling:compilers/ashling/riscv-toolchain": "12.1.0",
+    "ashling:debuggers/ashling/gdbserver-riscv-vsd": "26.4.0",
+    "ashling:tools/ashling/cli": "26.4.0",
+    "ashling:tools/ashling/build-tools": "3.27.7",
+    "ashling:examples/ashling/vsd-sdk-examples": "1.0.0"
+  }
+}

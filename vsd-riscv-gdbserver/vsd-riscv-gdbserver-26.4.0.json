@@ -1,0 +1,32 @@
+{
+  "id": "debuggers/ashling/gdbserver-riscv-vsd",
+  "version": "26.4.0",
+  "summary": "Ashling RISC-V GDB Server for VSD",
+  "description": "Ashling RIS-V GDB Server for debugging VSD devices via Ashling Opella-LD.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/vsd-risc-v-gdb-server/vsd-win-x86_64-26.4.0.zip",
+        "sha256": "5DAF7D4970B63641D3BCDE85ADFB112E94878874158E6F1F790820B40ED5C40D",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": ["gdbserver-riscv"],
+          "DEVICE_DB": ["common/devices_db"],
+          "GUI_OPXD_LIB": ["guiopxdif.dll"]
+        },
+        "tools": {
+          "ash-riscv-gdb-server": "gdbserver-riscv/ash-riscv-gdb-server.exe"
+		  "opxddiag" : "gdbserver-riscv/opxddiag.exe"
+        }
+      }
+    }
+  }
+}
