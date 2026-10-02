@@ -1,7 +1,7 @@
 {
   "id": "sdks/ashling/risc-v-sdk",
-  "version": "26.3.0",
-  "summary": "Ashling RISC-V SDK",
+  "version": "26.4.0",
+  "summary": "Ashling SDK for RISC-V",
   "description": "Meta-package bundling the Ashling RISC-V toolchain, CLI, GDB server, license activator, and build tools.",
   "contacts": {
     "Ashling": {
