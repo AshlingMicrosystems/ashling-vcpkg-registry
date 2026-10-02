@@ -23,7 +23,7 @@
           "GUI_OPXD_LIB": ["guiopxdif.dll"]
         },
         "tools": {
-          "ash-riscv-gdb-server": "gdbserver-riscv/ash-riscv-gdb-server.exe"
+          "ash-riscv-gdb-server": "gdbserver-riscv/ash-riscv-gdb-server.exe",
 		  "opxddiag" : "gdbserver-riscv/opxddiag.exe"
         }
       }
