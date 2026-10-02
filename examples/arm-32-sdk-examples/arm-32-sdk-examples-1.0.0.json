@@ -1,0 +1,21 @@
+{
+  "id": "examples/ashling/arm-32-sdk-examples",
+  "version": "1.0.0",
+  "summary": "Ashling ARM SDK example projects",
+  "description": "Getting-started example projects for the Ashling ARM SDK (one zip per project)",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/examples/arm-32-sdk/examples.zip",
+        "sha256": "98A23FAE870A364B013DF23728A7C9E9AD011C3C27E681EA62E054DE5473660E",
+        "strip": 1
+      }
+    }
+  }
+}
