@@ -1,0 +1,32 @@
+{
+  "id": "debuggers/ashling/gdbserver-arm",
+  "version": "26.4.0",
+  "summary": "Ashling ARM GDB Server for Standard Arm devices",
+  "description": "Ashling ARM GDB Server for debugging Arm devices via Ashling Opella-LD.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arm-gdb-server/gdbserver-arm-win-x86_64-26.4.0.zip",
+        "sha256": "5B757D4B1D21F829492FEEDD03C7E99DA26BF52D404D053E37FD9DD8E87C5DCF",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": ["gdbserver-arm"],
+          "DEVICE_DB": ["common/devices_db"],
+          "GUI_OPXD_LIB": ["guiopxdif.dll"]
+        },
+        "tools": {
+          "ash-arm-gdb-server": "gdbserver-arm/ash-arm-gdb-server.exe",
+		  "opxddiag" : "gdbserver-arm/opxddiag.exe"
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "id": "debuggers/ashling/gdbserver-riscv",
-  "version": "26.3.0",
+  "version": "26.4.0",
   "summary": "Ashling RISC-V GDB server",
   "description": "GDB server and JTAG probe tooling for debugging RISC-V targets via Ashling probes.",
   "contacts": {
@@ -12,8 +12,8 @@
   "demands": {
     "windows": {
       "install": {
-        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/risc-v-gdb-server/gdbserver-riscv-win-x86_64-26.3.0.zip",
-        "sha256": "F1DE7420E037FB7901AC631FC0011E04BF7F19B3D8C68AFC187EF3C53E859CDD",
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/risc-v-gdb-server/gdbserver-riscv-win-x86_64-26.4.0.zip",
+        "sha256": "6E6C1803C7955D6E13628D127B784ADAD61F4A6B2EC813A80F53F3BABEEEF1D8",
         "strip": 1
       },
       "exports": {

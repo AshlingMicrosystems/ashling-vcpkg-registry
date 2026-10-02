@@ -1,0 +1,31 @@
+{
+  "id": "compilers/ashling/arm-64-toolchain",
+  "version": "13.3.1",
+  "summary": "GNU Arm 64 toolchain for Ashling RiscFree",
+  "description": "GCC-based arm-none-eabi toolchain for 64 bit Arm targets.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arm-64-toolchain/aarch64-none-elf-win-x86_64-13.3.1.zip",
+        "sha256": "8475D64065655D13D72A7113D25BEA4A7C939E388F38B4024CDC1D40DBCDF5D2",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "bin"
+        },
+        "tools": {
+          "GCC_TOOLCHAIN_13_3_1": "./bin",
+          "aarch64-none-elf-gcc": "bin/aarch64-none-elf-gcc.exe",
+          "aarch64-none-elf-gdb": "bin/aarch64-none-elf-gdb.exe"
+        }
+      }
+    }
+  }
+}

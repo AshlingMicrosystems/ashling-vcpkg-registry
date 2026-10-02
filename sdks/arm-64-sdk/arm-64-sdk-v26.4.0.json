@@ -1,8 +1,8 @@
 {
-  "id": "sdks/ashling/vsd-sdk",
+  "id": "sdks/ashling/arm-64-sdk",
   "version": "26.4.0",
-  "summary": "Ashling SDK for VSD",
-  "description": "Meta-package bundling the Ashling RISC-V GDB Server, RISC-V GNU GCC Toolchain, build tools and example projects for VSD devices.",
+  "summary": "Ashling SDK for Arm AArch64",
+  "description": "Meta-package bundling the Ashling ARM GDB Server, ARM GNU GCC Toolchain, build tools and example projects for Arm devices.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",
@@ -17,10 +17,10 @@
     }
   ],
   "requires": {
-    "ashling:compilers/ashling/riscv-toolchain": "12.1.0",
-    "ashling:debuggers/ashling/gdbserver-riscv-vsd": "26.4.0",
+    "ashling:compilers/ashling/arm-64-toolchain": "13.3.1",
+    "ashling:debuggers/ashling/gdbserver-arm": "26.4.0",
     "ashling:tools/ashling/cli": "26.4.0",
     "ashling:tools/ashling/build-tools": "3.27.7",
-    "ashling:examples/ashling/vsd-sdk-examples": "1.0.0"
+    "ashling:tools/ashling/license-activator": "26.3.0"
   }
 }

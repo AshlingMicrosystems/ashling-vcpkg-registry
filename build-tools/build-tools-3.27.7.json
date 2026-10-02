@@ -12,7 +12,7 @@
   "demands": {
     "windows": {
       "install": {
-        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/cmake-buildtools/build_tools-win-x86_64-3.27.7.zip",
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/cmake-buildtools/build_tools-win-x86_64-3.27.7.zip",
         "sha256": "a2c4e9df5b7504e522263d0229b4aca2b9f46ba289bc739605dd95432b940c6b",
         "strip": 1
       },

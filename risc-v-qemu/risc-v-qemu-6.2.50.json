@@ -12,7 +12,7 @@
   "demands": {
     "windows": {
       "install": {
-        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/risc-v-qemu/risc-v-qemu-win-x86_64-6.2.50.zip",
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/risc-v-qemu/risc-v-qemu-win-x86_64-6.2.50.zip",
         "sha256": "172e82a3f70e9df40fdb3ca1894b68d3cf29a4ba4a8c0ba534270ea1a6634767",
         "strip": 1
       },
