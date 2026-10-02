@@ -1,0 +1,21 @@
+{
+  "id": "examples/ashling/vsd-sdk-examples",
+  "version": "1.0.0",
+  "summary": "Ashling VSD SDK example projects",
+  "description": "Getting-started example projects for the Ashling VSD SDK (one zip per project). The extension's 'Import example project from SDK' extracts this one into a folder the user picks.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/examples/vsd-sdk/examples.zip",
+        "sha256": "C6176212E00262761D16E112D2F433AE70E6AE46705ABC9098C922343451AD00",
+        "strip": 1
+      }
+    }
+  }
+}
