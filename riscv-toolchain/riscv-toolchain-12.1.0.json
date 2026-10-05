@@ -26,6 +26,23 @@
           "riscv64-unknown-elf-gdb": "bin/riscv64-unknown-elf-gdb.exe"
         }
       }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/risc-v-toolchain/riscv-toolchain-lin-x86_64-12.1.tar.gz",
+        "sha256": "1A2C1504593397591F1D7C3E389A8C05DFCDC5F2622A1FFB19B709A02C95C619",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "bin"
+        },
+        "tools": {
+          "GCC_TOOLCHAIN_12_1_0": "./bin",
+          "riscv64-unknown-elf-gcc": "bin/riscv64-unknown-elf-gcc",
+          "riscv64-unknown-elf-gdb": "bin/riscv64-unknown-elf-gdb"
+        }
+      }
     }
   }
 }

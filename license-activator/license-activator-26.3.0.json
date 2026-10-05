@@ -24,6 +24,21 @@
           "license-activator": "LicenseActivator.exe"
         }
       }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/license-activator/LicenseActivator-linux.gtk.x86_64-26.3.0.tar.gz",
+        "sha256": "F712ACA5ABE7755DA5D9CD88620385021656912C77D18AF99A8BB84EA20524F8",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "."
+        },
+        "tools": {
+          "license-activator": "LicenseActivator"
+        }
+      }
     }
   }
 }

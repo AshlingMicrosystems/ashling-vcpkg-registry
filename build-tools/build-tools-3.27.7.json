@@ -25,6 +25,22 @@
           "make": "bin/make.exe"
         }
       }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/cmake-buildtools/build_tools-linux-x86_64-3.27.7.tar.gz",
+        "sha256": "85E0D6E3A0E388BA15BABF6CEEC4580589871A38E8FC43B06B058B790E3FA89A",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": ["bin", "cmake/bin"]
+        },
+        "tools": {
+          "cmake": "cmake/bin/cmake",
+          "make": "bin/make"
+        }
+      }
     }
   }
 }

@@ -24,6 +24,21 @@
           "ashling-cli": "ashling-cli.exe"
         }
       }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/riscfree-cli/cli-linux-x86_64-26.4.0.tar.gz",
+        "sha256": "B051910C527104E8AA21915F050F29471208A1769B18B2B2B451BB8D5017C8C3",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "."
+        },
+        "tools": {
+          "ashling-cli": "ashling-cli"
+        }
+      }
     }
   }
 }

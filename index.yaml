@@ -18,7 +18,6 @@ items:
     riscv-toolchain/riscv-toolchain-12.1.0.json,
     risc-v-qemu/risc-v-qemu-6.2.50.json,
     license-activator/license-activator-26.3.0.json,
-    gdbserver-riscv/gdbserver-riscv-26.3.0.json,
     gdbserver-riscv/gdbserver-riscv-26.4.0.json
   ]
 indexes:
@@ -28,7 +27,7 @@ indexes:
       compilers/ashling/arm-64-toolchain: [ 0 ]
       compilers/ashling/riscv-toolchain: [ 15 ]
       debuggers/ashling/gdbserver-arm: [ 2 ]
-      debuggers/ashling/gdbserver-riscv: [ 18, 19 ]
+      debuggers/ashling/gdbserver-riscv: [ 18 ]
       debuggers/ashling/gdbserver-riscv-vsd: [ 9 ]
       examples/ashling/arm-32-sdk-examples: [ 5 ]
       examples/ashling/risc-v-qemu-sdk-examples: [ 6 ]
@@ -80,8 +79,7 @@ indexes:
           15,
           16,
           17,
-          18,
-          19
+          18
         ]
       ashling/arm: [ 0, 1, 5, 10, 12 ]
       ashling/arm-32: [ 1, 5, 10 ]
@@ -94,9 +92,9 @@ indexes:
       ashling/build: [ 3 ]
       ashling/build-tools: [ 3 ]
       ashling/cli: [ 4 ]
-      ashling/gdbserver: [ 2, 9, 18, 19 ]
+      ashling/gdbserver: [ 2, 9, 18 ]
       ashling/gdbserver-arm: [ 2 ]
-      ashling/gdbserver-riscv: [ 9, 18, 19 ]
+      ashling/gdbserver-riscv: [ 9, 18 ]
       ashling/gdbserver-riscv-vsd: [ 9 ]
       ashling/license: [ 17 ]
       ashling/license-activator: [ 17 ]
@@ -125,11 +123,11 @@ indexes:
       compilers/ashling/arm-64-toolchain: [ 0 ]
       compilers/ashling/riscv: [ 15 ]
       compilers/ashling/riscv-toolchain: [ 15 ]
-      debuggers: [ 2, 9, 18, 19 ]
-      debuggers/ashling: [ 2, 9, 18, 19 ]
-      debuggers/ashling/gdbserver: [ 2, 9, 18, 19 ]
+      debuggers: [ 2, 9, 18 ]
+      debuggers/ashling: [ 2, 9, 18 ]
+      debuggers/ashling/gdbserver: [ 2, 9, 18 ]
       debuggers/ashling/gdbserver-arm: [ 2 ]
-      debuggers/ashling/gdbserver-riscv: [ 9, 18, 19 ]
+      debuggers/ashling/gdbserver-riscv: [ 9, 18 ]
       debuggers/ashling/gdbserver-riscv-vsd: [ 9 ]
       examples: [ 5, 6, 7, 8 ]
       examples/ashling: [ 5, 6, 7, 8 ]
@@ -147,9 +145,9 @@ indexes:
       examples/ashling/vsd: [ 8 ]
       examples/ashling/vsd-sdk: [ 8 ]
       examples/ashling/vsd-sdk-examples: [ 8 ]
-      gdbserver: [ 2, 9, 18, 19 ]
+      gdbserver: [ 2, 9, 18 ]
       gdbserver-arm: [ 2 ]
-      gdbserver-riscv: [ 9, 18, 19 ]
+      gdbserver-riscv: [ 9, 18 ]
       gdbserver-riscv-vsd: [ 9 ]
       license: [ 17 ]
       license-activator: [ 17 ]
@@ -164,7 +162,7 @@ indexes:
       risc-v-sdk: [ 7, 11, 13 ]
       risc-v-sdk-examples: [ 7 ]
       risc-v-sdk-qemu: [ 13 ]
-      riscv: [ 9, 15, 18, 19 ]
+      riscv: [ 9, 15, 18 ]
       riscv-toolchain: [ 15 ]
       riscv-vsd: [ 9 ]
       sdk: [ 5, 6, 7, 8, 10, 11, 12, 13, 14 ]
@@ -212,15 +210,15 @@ indexes:
       10.3.1: [ 1 ]
       12.1.0: [ 15 ]
       13.3.1: [ 0 ]
-      26.3.0: [ 17, 18 ]
-      26.4.0: [ 2, 4, 9, 10, 11, 12, 13, 14, 19 ]
+      26.3.0: [ 17 ]
+      26.4.0: [ 2, 4, 9, 10, 11, 12, 13, 14, 18 ]
   StringKey/summary:
     keys:
       Ashling ARM GDB Server for Standard Arm devices: [ 2 ]
       Ashling ARM SDK example projects: [ 5 ]
       Ashling build tools (CMake + BusyBox make): [ 3 ]
       Ashling License Activator: [ 17 ]
-      Ashling RISC-V GDB server: [ 18, 19 ]
+      Ashling RISC-V GDB server: [ 18 ]
       Ashling RISC-V GDB Server for VSD: [ 9 ]
       Ashling RISC-V SDK example projects: [ 7 ]
       Ashling RISC-V SDK for QEMU example projects: [ 6 ]
@@ -263,23 +261,22 @@ indexes:
           15,
           16,
           17,
-          18,
-          19
+          18
         ]
       BusyBox: [ 3 ]
       CLI: [ 4 ]
       CMake: [ 3 ]
-      GDB: [ 2, 9, 18, 19 ]
+      GDB: [ 2, 9, 18 ]
       GNU: [ 0, 1, 15 ]
       License: [ 17 ]
       QEMU: [ 6, 13, 16 ]
-      RISC: [ 6, 7, 9, 11, 13, 15, 16, 18, 19 ]
-      RISC-V: [ 6, 7, 9, 11, 13, 15, 16, 18, 19 ]
+      RISC: [ 6, 7, 9, 11, 13, 15, 16, 18 ]
+      RISC-V: [ 6, 7, 9, 11, 13, 15, 16, 18 ]
       RiscFree: [ 0, 1, 4, 15 ]
       SDK: [ 5, 6, 7, 8, 10, 11, 12, 13, 14 ]
       Server: [ 2, 9 ]
       Standard: [ 2 ]
-      V: [ 6, 7, 9, 11, 13, 15, 16, 18, 19 ]
+      V: [ 6, 7, 9, 11, 13, 15, 16, 18 ]
       VSD: [ 8, 9, 14 ]
       build: [ 3, 16 ]
       build): [ 16 ]
@@ -290,6 +287,6 @@ indexes:
       make: [ 3 ]
       make): [ 3 ]
       projects: [ 5, 6, 7, 8 ]
-      server: [ 18, 19 ]
+      server: [ 18 ]
       toolchain: [ 0, 1, 15 ]
       tools: [ 3 ]

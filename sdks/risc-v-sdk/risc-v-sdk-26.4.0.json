@@ -18,7 +18,7 @@
   ],
   "requires": {
     "ashling:compilers/ashling/riscv-toolchain": "12.1.0",
-    "ashling:debuggers/ashling/gdbserver-riscv": "26.3.0",
+    "ashling:debuggers/ashling/gdbserver-riscv": "26.4.0",
     "ashling:tools/ashling/license-activator": "26.3.0",
     "ashling:tools/ashling/cli": "26.4.0",
     "ashling:tools/ashling/build-tools": "3.27.7",
