@@ -2,7 +2,7 @@
   "id": "sdks/ashling/risc-v-sdk",
   "version": "26.4.0",
   "summary": "Ashling SDK for RISC-V",
-  "description": "Meta-package bundling the Ashling RISC-V toolchain, CLI, GDB server, license activator, and build tools.",
+  "description": "Meta-package bundling the Ashling RISC-V toolchain, CLI, GDB server, license activator and build tools, plus the Ashling Opella-LD, Opella-XD and Vitra-XS USB drivers (Windows).",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",
@@ -22,6 +22,9 @@
     "ashling:tools/ashling/license-activator": "26.3.0",
     "ashling:tools/ashling/cli": "26.4.0",
     "ashling:tools/ashling/build-tools": "3.27.7",
-    "ashling:examples/ashling/risc-v-sdk-examples": "1.0.0"
+    "ashling:examples/ashling/risc-v-sdk-examples": "1.0.0",
+    "ashling:drivers/ashling/opella-ld": "1.0.0",
+    "ashling:drivers/ashling/opella-xd": "1.0.0",
+    "ashling:drivers/ashling/vitra-xs": "1.0.0"
   }
 }
