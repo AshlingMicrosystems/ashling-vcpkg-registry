@@ -28,7 +28,7 @@
     "linux": {
       "install": {
         "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/license-activator/LicenseActivator-linux.gtk.x86_64-26.3.0.tar.gz",
-        "sha256": "F712ACA5ABE7755DA5D9CD88620385021656912C77D18AF99A8BB84EA20524F8",
+        "sha256": "7D23A09D1256DE3CD8BAFA7E7291A7CB42D071E420DAEB17E82EC5B555CE6B9F",
         "strip": 1
       },
       "exports": {
