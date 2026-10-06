@@ -13,7 +13,7 @@
     "windows": {
       "install": {
         "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/drivers/opella-xd/opella-xd-win-x86_64-1.0.0.zip",
-        "sha256": "7CA37B0E31D67E872B6445F7D2C880D7988A4C10D2A834DF9856C65999854F00",
+        "sha256": "48124E451905F3D9CA964A2162DA27BD72D20CF87B9F94BC4828740947A06BD5",
         "strip": 1
       }
     }

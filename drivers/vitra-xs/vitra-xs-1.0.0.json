@@ -13,7 +13,7 @@
     "windows": {
       "install": {
         "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/drivers/vitra-xs/vitra-xs-win-x86_64-1.0.0.zip",
-        "sha256": "579F11DA55CCEBEEC0BF83413B27FD76DC5F3828AD00F03A67B60AEC98B7D374",
+        "sha256": "4A714BD82720DF6F21F60D45A28800436DBDECB4202AD4AB979853AC6F4FCD0F",
         "strip": 1
       }
     }
