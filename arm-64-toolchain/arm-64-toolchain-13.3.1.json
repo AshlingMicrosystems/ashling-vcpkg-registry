@@ -29,7 +29,7 @@
     },
     "linux": {
       "install": {
-        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arm-64-toolchain/aarch64-none-elf.tar.gz",
+        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arm-64-toolchain/aarch64-none-elf-lin-x86_64-13.3.1.tar.gz",
         "sha256": "333B4E37A092119E69181CC322197071C8E2011F36BE841C8F981B334957ACA4",
         "strip": 1
       },

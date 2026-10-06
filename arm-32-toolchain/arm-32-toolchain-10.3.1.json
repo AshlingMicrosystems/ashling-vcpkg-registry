@@ -29,7 +29,7 @@
     },
     "linux": {
       "install": {
-        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arm-32-toolchain/arm-none-eabi.tar.gz",
+        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arm-32-toolchain/arm-none-eabi-lin-x86_64-10.3.1.tar.gz",
         "sha256": "CA5B7C007625D594A5BCBB4F418CC8695146908635E0E5FA144C7EE6820A0D9C",
         "strip": 1
       },
