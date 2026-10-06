@@ -2,7 +2,7 @@
   "id": "sdks/ashling/vsd-sdk",
   "version": "26.4.0",
   "summary": "Ashling SDK for VSD",
-  "description": "Meta-package bundling the Ashling RISC-V GDB Server, RISC-V GNU GCC Toolchain, build tools and example projects for VSD devices.",
+  "description": "Meta-package bundling the Ashling RISC-V GDB Server, RISC-V GNU GCC Toolchain, build tools and example projects for VSD devices, plus the Ashling Opella-LD USB driver (Windows).",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",
@@ -21,6 +21,7 @@
     "ashling:debuggers/ashling/gdbserver-riscv-vsd": "26.4.0",
     "ashling:tools/ashling/cli": "26.4.0",
     "ashling:tools/ashling/build-tools": "3.27.7",
-    "ashling:examples/ashling/vsd-sdk-examples": "1.0.0"
+    "ashling:examples/ashling/vsd-sdk-examples": "1.0.0",
+    "ashling:drivers/ashling/opella-ld": "1.0.0"
   }
 }

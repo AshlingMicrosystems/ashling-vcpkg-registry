@@ -1,0 +1,21 @@
+{
+  "id": "drivers/ashling/vitra-xs",
+  "version": "1.0.0",
+  "summary": "Ashling Vitra-XS USB driver",
+  "description": "Signed Windows driver package (WinUSB) for the Ashling Vitra-XS debug and trace probe.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/drivers/vitra-xs/vitra-xs-win-x86_64-1.0.0.zip",
+        "sha256": "579F11DA55CCEBEEC0BF83413B27FD76DC5F3828AD00F03A67B60AEC98B7D374",
+        "strip": 1
+      }
+    }
+  }
+}
