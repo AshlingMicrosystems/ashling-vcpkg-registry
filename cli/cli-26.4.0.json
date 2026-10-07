@@ -13,7 +13,7 @@
     "windows": {
       "install": {
         "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/riscfree-cli/cli-win-x86_64-26.4.0.zip",
-        "sha256": "EDA0618D6FE29BE15AD1476686DBEA27C033A394007C73C3CE119BCC2C8CAF1D",
+        "sha256": "4CCA861EFCC8E0D642555E22AF43B5ABE641F448B40962297C1DFFEB31C1FC58",
         "strip": 1
       },
       "exports": {
@@ -28,7 +28,7 @@
     "linux": {
       "install": {
         "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/riscfree-cli/cli-linux-x86_64-26.4.0.tar.gz",
-        "sha256": "B051910C527104E8AA21915F050F29471208A1769B18B2B2B451BB8D5017C8C3",
+        "sha256": "23A06761F625E8009C5B993680DC348DBFE1838639847E1C22F26081EFE7840B",
         "strip": 1
       },
       "exports": {
