@@ -1,0 +1,21 @@
+{
+  "id": "runtimes/ashling/vsruntime",
+  "version": "14.51.36247",
+  "summary": "Microsoft Visual C++ Redistributable",
+  "description": "Microsoft Visual C++ 2015-2022 Redistributable installers (x64 and x86) needed by the Ashling Windows tools.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/vsruntime/vsruntime-win-x86_64-14.51.36247.zip",
+        "sha256": "6F1D61D4448DBDCBC84330B4AB8027D46DFDDCDAD23C55C3E324E31CDC7B2207",
+        "strip": 1
+      }
+    }
+  }
+}

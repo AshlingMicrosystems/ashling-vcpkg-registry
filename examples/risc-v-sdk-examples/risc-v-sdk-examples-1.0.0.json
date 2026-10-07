@@ -12,7 +12,14 @@
   "demands": {
     "windows": {
       "install": {
-        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/examples/risc-v-sdk/examples.zip",
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/examples/risc-v-sdk/examples.zip",
+        "sha256": "f59cc02b6571a31b683dfa67077c7e11c8f8945831bee460d20d84b30b343c62",
+        "strip": 1
+      }
+    },
+    "linux": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/examples/risc-v-sdk/examples.zip",
         "sha256": "f59cc02b6571a31b683dfa67077c7e11c8f8945831bee460d20d84b30b343c62",
         "strip": 1
       }

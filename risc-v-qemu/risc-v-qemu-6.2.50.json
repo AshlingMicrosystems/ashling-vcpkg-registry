@@ -12,7 +12,7 @@
   "demands": {
     "windows": {
       "install": {
-        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/risc-v-qemu/risc-v-qemu-win-x86_64-6.2.50.zip",
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/risc-v-qemu/risc-v-qemu-win-x86_64-6.2.50.zip",
         "sha256": "172e82a3f70e9df40fdb3ca1894b68d3cf29a4ba4a8c0ba534270ea1a6634767",
         "strip": 1
       },
@@ -23,6 +23,22 @@
         "tools": {
           "qemu-system-riscv32": "qemu-system-riscv32.exe",
           "qemu-system-riscv64": "qemu-system-riscv64.exe"
+        }
+      }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/risc-v-qemu/risc-v-qemu-lin-x86_64-6.2.50.tar.gz",
+        "sha256": "9174FF190605AF2A6F52A0DD3B0C10749393391FF05F12E23B677FB8AEAD0444",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "."
+        },
+        "tools": {
+          "qemu-system-riscv32": "qemu-system-riscv32",
+          "qemu-system-riscv64": "qemu-system-riscv64"
         }
       }
     }

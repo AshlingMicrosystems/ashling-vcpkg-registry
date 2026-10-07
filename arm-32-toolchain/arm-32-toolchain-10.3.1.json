@@ -1,0 +1,48 @@
+{
+  "id": "compilers/ashling/arm-32-toolchain",
+  "version": "10.3.1",
+  "summary": "GNU Arm 32 toolchain for Ashling RiscFree",
+  "description": "GCC-based arm-none-eabi toolchain for 32 bit Arm targets.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arm-32-toolchain/aarch32-none-eabi-win-x86_64-10.3.1.zip",
+        "sha256": "E3B342E17395726E48E6AD0FE37861AEC3FD9CC19B225C123D8C0FDC28BF2B25",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "bin"
+        },
+        "tools": {
+          "GCC_TOOLCHAIN_10_3_1": "./bin",
+          "arm-none-eabi-gcc": "bin/arm-none-eabi-gcc.exe",
+          "arm-none-eabi-gdb": "bin/arm-none-eabi-gdb.exe"
+        }
+      }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arm-32-toolchain/arm-none-eabi-lin-x86_64-10.3.1.tar.gz",
+        "sha256": "CA5B7C007625D594A5BCBB4F418CC8695146908635E0E5FA144C7EE6820A0D9C",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "bin"
+        },
+        "tools": {
+          "GCC_TOOLCHAIN_10_3_1": "./bin",
+          "arm-none-eabi-gcc": "bin/arm-none-eabi-gcc",
+          "arm-none-eabi-gdb": "bin/arm-none-eabi-gdb"
+        }
+      }
+    }
+  }
+}

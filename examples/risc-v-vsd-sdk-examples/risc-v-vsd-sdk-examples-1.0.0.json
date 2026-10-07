@@ -12,7 +12,14 @@
   "demands": {
     "windows": {
       "install": {
-        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/examples/vsd-sdk/examples.zip",
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/examples/vsd-sdk/examples.zip",
+        "sha256": "C6176212E00262761D16E112D2F433AE70E6AE46705ABC9098C922343451AD00",
+        "strip": 1
+      }
+    },
+    "linux": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/examples/vsd-sdk/examples.zip",
         "sha256": "C6176212E00262761D16E112D2F433AE70E6AE46705ABC9098C922343451AD00",
         "strip": 1
       }

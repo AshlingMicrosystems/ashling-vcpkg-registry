@@ -12,7 +12,7 @@
   "demands": {
     "windows": {
       "install": {
-        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/risc-v-toolchain/riscv-toolchain-win-x86_64-12.1.zip",
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/risc-v-toolchain/riscv-toolchain-win-x86_64-12.1.zip",
         "sha256": "4FD10486085D28D31FB82FD5366F38DE5011030776235336E38AE6A915BE7AC4",
         "strip": 1
       },
@@ -24,6 +24,23 @@
           "GCC_TOOLCHAIN_12_1_0": "./bin",
           "riscv64-unknown-elf-gcc": "bin/riscv64-unknown-elf-gcc.exe",
           "riscv64-unknown-elf-gdb": "bin/riscv64-unknown-elf-gdb.exe"
+        }
+      }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/risc-v-toolchain/riscv-toolchain-lin-x86_64-12.1.tar.gz",
+        "sha256": "1A2C1504593397591F1D7C3E389A8C05DFCDC5F2622A1FFB19B709A02C95C619",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "bin"
+        },
+        "tools": {
+          "GCC_TOOLCHAIN_12_1_0": "./bin",
+          "riscv64-unknown-elf-gcc": "bin/riscv64-unknown-elf-gcc",
+          "riscv64-unknown-elf-gdb": "bin/riscv64-unknown-elf-gdb"
         }
       }
     }

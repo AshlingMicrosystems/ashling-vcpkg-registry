@@ -12,7 +12,14 @@
   "demands": {
     "windows": {
       "install": {
-        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/examples/risc-v-qemu-sdk/examples.zip",
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/examples/risc-v-qemu-sdk/examples.zip",
+        "sha256": "9610b5dafe382065161c8bf97af8cc9a34f00ac6bccbf3af2deb0f90686fa840",
+        "strip": 1
+      }
+    },
+    "linux": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/examples/risc-v-qemu-sdk/examples.zip",
         "sha256": "9610b5dafe382065161c8bf97af8cc9a34f00ac6bccbf3af2deb0f90686fa840",
         "strip": 1
       }

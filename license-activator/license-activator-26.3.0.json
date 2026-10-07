@@ -12,7 +12,7 @@
   "demands": {
     "windows": {
       "install": {
-        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vspkg-artifacts/license-activator/LicenseActivator-win-x86_64-26.3.0.zip",
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/license-activator/LicenseActivator-win-x86_64-26.3.0.zip",
         "sha256": "7A4E700445658C887E39345BC82F53014BA3014ED2449BC522681060716DAF30",
         "strip": 1
       },
@@ -22,6 +22,21 @@
         },
         "tools": {
           "license-activator": "LicenseActivator.exe"
+        }
+      }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/license-activator/LicenseActivator-linux.gtk.x86_64-26.3.0.tar.gz",
+        "sha256": "7D23A09D1256DE3CD8BAFA7E7291A7CB42D071E420DAEB17E82EC5B555CE6B9F",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "."
+        },
+        "tools": {
+          "license-activator": "LicenseActivator"
         }
       }
     }
