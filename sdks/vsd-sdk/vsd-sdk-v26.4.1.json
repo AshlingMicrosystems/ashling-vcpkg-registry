@@ -1,7 +1,7 @@
 {
   "id": "sdks/ashling/vsd-sdk",
   "version": "26.4.1",
-  "summary": "Ashling VSD SDK",
+  "summary": "Ashling SDK for VSD",
   "description": "Meta-package bundling the Ashling RISC-V GDB Server, RISC-V GNU GCC Toolchain, Build tools and Example projects for VSD devices.",
   "contacts": {
     "Ashling": {
