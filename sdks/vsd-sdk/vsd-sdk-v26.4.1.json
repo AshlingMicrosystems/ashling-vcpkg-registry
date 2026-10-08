@@ -23,6 +23,7 @@
     "ashling:tools/ashling/build-tools": "3.27.7",
     "ashling:examples/ashling/vsd-sdk-examples": "1.0.0",
     "ashling:drivers/ashling/opella-ld": "1.0.0",
-      "ashling:runtimes/ashling/vsruntime": "14.51.36247"
+    "ashling:runtimes/ashling/vsruntime": "14.51.36247",
+    "ashling:rules/ashling/udev": "1.0.0"
   }
 }

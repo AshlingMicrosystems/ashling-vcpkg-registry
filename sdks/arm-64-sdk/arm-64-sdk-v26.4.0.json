@@ -24,6 +24,7 @@
     "ashling:tools/ashling/license-activator": "26.3.0",
     "ashling:drivers/ashling/opella-ld": "1.0.0",
     "ashling:drivers/ashling/opella-xd": "1.0.0",
-    "ashling:drivers/ashling/vitra-xs": "1.0.0"
+    "ashling:drivers/ashling/vitra-xs": "1.0.0",
+    "ashling:rules/ashling/udev": "1.0.0"
   }
 }

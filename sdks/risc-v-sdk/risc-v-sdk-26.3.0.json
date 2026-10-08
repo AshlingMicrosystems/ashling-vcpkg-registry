@@ -25,6 +25,7 @@
     "ashling:examples/ashling/risc-v-sdk-examples": "1.0.0",
     "ashling:drivers/ashling/opella-ld": "1.0.0",
     "ashling:drivers/ashling/opella-xd": "1.0.0",
-    "ashling:drivers/ashling/vitra-xs": "1.0.0"
+    "ashling:drivers/ashling/vitra-xs": "1.0.0",
+    "ashling:rules/ashling/udev": "1.0.0"
   }
 }
