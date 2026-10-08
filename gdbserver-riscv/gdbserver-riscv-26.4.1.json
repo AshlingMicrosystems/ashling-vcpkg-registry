@@ -33,6 +33,30 @@
           "opxddiag": "gdbserver-riscv/opxddiag.exe"
         }
       }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/risc-v-gdb-server/gdbserver-riscv-linux-x86_64-26.4.1.tar.gz",
+        "sha256": "2DD29800EE5B9D5763AFE74520FC611C0ABBC591E23826A96BBD804E7391DCBF",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": [
+            "gdbserver-riscv"
+          ],
+          "DEVICE_DB": [
+            "common/devices_db"
+          ],
+          "GUI_OPXD_LIB": [
+            "libguiopxdif.so"
+          ]
+        },
+        "tools": {
+          "ash-riscv-gdb-server": "gdbserver-riscv/ash-riscv-gdb-server",
+          "opxddiag": "gdbserver-riscv/opxddiag"
+        }
+      }
     }
   }
 }

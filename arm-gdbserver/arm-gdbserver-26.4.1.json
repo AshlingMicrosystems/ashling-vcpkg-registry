@@ -33,6 +33,30 @@
           "opxddiag": "gdbserver-arm/opxddiag.exe"
         }
       }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arm-gdb-server/gdbserver-arm-linux-x86_64-26.4.1.tar.gz",
+        "sha256": "C1C9F0E120F70110F404C971F81517AB0BD5A149C6BDAC46BC34EFA339604501",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": [
+            "gdbserver-arm"
+          ],
+          "DEVICE_DB": [
+            "common/devices_db"
+          ],
+          "GUI_OPXD_LIB": [
+            "libguiopxdif.so"
+          ]
+        },
+        "tools": {
+          "ash-arm-gdb-server": "gdbserver-arm/ash-arm-gdb-server",
+          "opxddiag": "gdbserver-arm/opxddiag"
+        }
+      }
     }
   }
 }
