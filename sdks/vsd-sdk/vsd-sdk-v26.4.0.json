@@ -22,6 +22,7 @@
     "ashling:tools/ashling/cli": "26.4.0",
     "ashling:tools/ashling/build-tools": "3.27.7",
     "ashling:examples/ashling/vsd-sdk-examples": "1.0.0",
-    "ashling:drivers/ashling/opella-ld": "1.0.0"
+    "ashling:drivers/ashling/opella-ld": "1.0.0",
+    "ashling:rules/ashling/udev": "1.0.0"
   }
 }
