@@ -13,7 +13,7 @@
     "windows": {
       "install": {
         "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arm-gdb-server/gdbserver-arm-win-x86_64-26.4.1.zip",
-        "sha256": "F84C34B8D4022414B089CBDAFE17701B1F2FA30E3F410F26DCAEF42EBA88765A",
+        "sha256": "03F2995F86A8F70D62A8E33D66449FEC0E25A1F25D68D780B0C0DDC3E5BC0CD7",
         "strip": 1
       },
       "exports": {
@@ -37,7 +37,7 @@
     "linux": {
       "install": {
         "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arm-gdb-server/gdbserver-arm-linux-x86_64-26.4.1.tar.gz",
-        "sha256": "C1C9F0E120F70110F404C971F81517AB0BD5A149C6BDAC46BC34EFA339604501",
+        "sha256": "AB0518D22085367554F2DE5B2E8E4655C811CE160031B23BB54FFC941C0C32B3",
         "strip": 1
       },
       "exports": {
