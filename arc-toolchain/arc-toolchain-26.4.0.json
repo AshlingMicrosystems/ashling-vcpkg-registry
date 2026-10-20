@@ -1,0 +1,30 @@
+{
+  "id": "compilers/ashling/arc-toolchain",
+  "version": "26.4.0",
+  "summary": "ARC toolchain for Ashling RiscFree",
+  "description": "GDB debuggers for Synopsys ARC targets (arc64-elf64-gdb, arc-elf32-gdb). No compiler is included.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arc-toolchain/arc-toolchain-win-x86_64-26.4.0.zip",
+        "sha256": "6B4D503C59FBA2EEA12379ED3B5DD403594344165F55440E7F88452F9AD39CD1",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "bin"
+        },
+        "tools": {
+          "arc64-elf64-gdb": "bin/arc64-elf64-gdb.exe",
+          "arc-elf32-gdb": "bin/arc-elf32-gdb.exe"
+        }
+      }
+    }
+  }
+}
