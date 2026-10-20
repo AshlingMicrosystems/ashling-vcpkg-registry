@@ -1,0 +1,29 @@
+{
+  "id": "compilers/ashling/arc-toolchain",
+  "version": "10.2.0",
+  "summary": "GNU ARC debugger for Ashling RiscFree",
+  "description": "arc-elf32-gdb (GDB 10.2) for Synopsys ARC targets. Debugger only: no compiler is included.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arc-toolchain/arc-elf32-win-x86_64-10.2.0.zip",
+        "sha256": "C71E8CFB548927EBD797D487B3AED8BCA4DC480EF655A19562A415F30206CD5F",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "bin"
+        },
+        "tools": {
+          "arc-elf32-gdb": "bin/arc-elf32-gdb.exe"
+        }
+      }
+    }
+  }
+}

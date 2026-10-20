@@ -1,0 +1,38 @@
+{
+  "id": "debuggers/ashling/gdbserver-arc",
+  "version": "26.4.0",
+  "summary": "Ashling ARC GDB Server for Synopsys ARC devices",
+  "description": "Ashling ARC GDB Server for debugging Synopsys ARC devices via Ashling Opella-XD, Opella-LD and Vitra-XS.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arc-gdb-server/gdbserver-arc-win-x86_64-26.4.0.zip",
+        "sha256": "67210F53AF17EE1FE88D66F9AB73BD8349431C834F9DA4CF2BCAC6EEAF0EF6DF",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": [
+            "gdbserver-arc"
+          ],
+          "DEVICE_DB": [
+            "common/devices_db"
+          ],
+          "GUI_OPXD_LIB": [
+            "guiopxdif.dll"
+          ]
+        },
+        "tools": {
+          "ash-arc-gdb-server": "gdbserver-arc/ash-arc-gdb-server.exe",
+          "opxddiag": "gdbserver-arc/opxddiag.exe"
+        }
+      }
+    }
+  }
+}

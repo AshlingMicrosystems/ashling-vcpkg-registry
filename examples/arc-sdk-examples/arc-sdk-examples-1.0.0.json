@@ -1,0 +1,21 @@
+{
+  "id": "examples/ashling/arc-sdk-examples",
+  "version": "1.0.0",
+  "summary": "Ashling ARC SDK example projects",
+  "description": "Prebuilt getting-started example projects for the Ashling ARC SDK (one zip per project)",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/examples/arc-sdk/examples.zip",
+        "sha256": "628F38416735197C0C3579E0E95C667EEC038AFAE2323D5E273C7FFB2EDFB0E5",
+        "strip": 1
+      }
+    }
+  }
+}

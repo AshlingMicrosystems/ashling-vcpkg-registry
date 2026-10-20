@@ -1,0 +1,30 @@
+{
+  "id": "sdks/ashling/arc-sdk",
+  "version": "26.4.0",
+  "summary": "Ashling SDK for Synopsys ARC",
+  "description": "Debug embedded applications on Synopsys ARC devices through an Ashling Opella-XD, Opella-LD or Vitra-XS probe with the Ashling ARC GDB server, starting from the included prebuilt example projects. No compiler is included.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "registries": [
+    {
+      "kind": "artifact",
+      "name": "ashling",
+      "location": "https://github.com/AshlingMicrosystems/ashling-vcpkg-registry/archive/refs/heads/main.zip"
+    }
+  ],
+  "requires": {
+    "ashling:compilers/ashling/arc-toolchain": "10.2.0",
+    "ashling:debuggers/ashling/gdbserver-arc": "26.4.0",
+    "ashling:tools/ashling/cli": "26.4.0",
+    "ashling:tools/ashling/license-activator": "26.3.0",
+    "ashling:examples/ashling/arc-sdk-examples": "1.0.0",
+    "ashling:drivers/ashling/opella-ld": "1.0.0",
+    "ashling:drivers/ashling/opella-xd": "1.0.0",
+    "ashling:drivers/ashling/vitra-xs": "1.0.0",
+    "ashling:runtimes/ashling/vsruntime": "14.51.36247"
+  }
+}
