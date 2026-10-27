@@ -1,8 +1,8 @@
 {
   "id": "debuggers/ashling/gdbserver-arc",
   "version": "26.4.0",
-  "summary": "Ashling ARC GDB Server for Synopsys ARC devices",
-  "description": "Ashling ARC GDB Server for debugging Synopsys ARC devices via Ashling Opella-XD, Opella-LD and Vitra-XS.",
+  "summary": "Ashling ARC GDB Server for MIPS ARC devices",
+  "description": "Ashling ARC GDB Server for debugging MIPS ARC devices via Ashling Opella-XD, Opella-LD and Vitra-XS.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",

@@ -2,7 +2,7 @@
   "id": "compilers/ashling/arc-toolchain",
   "version": "10.2.0",
   "summary": "GNU ARC debugger for Ashling RiscFree",
-  "description": "arc-elf32-gdb (GDB 10.2) for Synopsys ARC targets. Debugger only: no compiler is included.",
+  "description": "arc-elf32-gdb (GDB 10.2) for MIPS ARC targets. Debugger only: no compiler is included.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",
