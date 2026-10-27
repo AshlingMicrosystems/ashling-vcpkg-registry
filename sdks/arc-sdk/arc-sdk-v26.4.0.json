@@ -1,8 +1,8 @@
 {
   "id": "sdks/ashling/arc-sdk",
   "version": "26.4.0",
-  "summary": "Ashling SDK for Synopsys ARC",
-  "description": "Debug embedded applications on Synopsys ARC devices through an Ashling Opella-XD, Opella-LD or Vitra-XS probe with the Ashling ARC GDB server, starting from the included prebuilt example projects. No compiler is included.",
+  "summary": "Ashling SDK for MIPS ARC",
+  "description": "Debug embedded applications on MIPS ARC devices through an Ashling Opella-XD, Opella-LD or Vitra-XS probe with the Ashling ARC GDB server, starting from the included prebuilt example projects. No compiler is included.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",
