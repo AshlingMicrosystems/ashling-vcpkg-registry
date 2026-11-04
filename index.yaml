@@ -5,13 +5,13 @@ items:
     arc-toolchain/arc-toolchain-26.4.0.json,
     arm-32-toolchain/arm-32-toolchain-10.3.1.json,
     arm-64-toolchain/arm-64-toolchain-13.3.1.json,
-    arm-gdbserver/arm-gdbserver-26.4.1.json,
     arm-gdbserver/arm-gdbserver-26.4.0.json,
+    arm-gdbserver/arm-gdbserver-26.4.1.json,
     build-tools/build-tools-3.27.7.json,
     vsruntime/vsruntime-14.51.36247.json,
-    udev/udev-1.0.0.json,
     vsd-riscv-gdbserver/vsd-riscv-gdbserver-26.4.0.json,
     vsd-riscv-gdbserver/vsd-riscv-gdbserver-26.4.1.json,
+    udev/udev-1.0.0.json,
     sdks/arc-sdk/arc-sdk-v26.4.0.json,
     sdks/arc-sdk/arc-sdk-v26.4.1.json,
     sdks/arm-32-sdk/arm-32-sdk-v26.4.0.json,
@@ -37,9 +37,10 @@ items:
     examples/risc-v-sdk-examples/risc-v-sdk-examples-1.0.0.json,
     examples/risc-v-vsd-sdk-examples/risc-v-vsd-sdk-examples-1.0.0.json,
     drivers/opella-ld/opella-ld-1.0.0.json,
-    drivers/opella-xd/opella-xd-1.0.0.json,
     drivers/vitra-xs/vitra-xs-1.0.0.json,
-    cli/cli-26.4.0.json
+    drivers/opella-xd/opella-xd-1.0.0.json,
+    cli/cli-26.4.0.json,
+    cli/cli-26.4.1.json
   ]
 indexes:
   IdentityKey/id:
@@ -52,17 +53,17 @@ indexes:
       debuggers/ashling/gdbserver-arc: [ 0 ]
       debuggers/ashling/gdbserver-arm: [ 5, 6 ]
       debuggers/ashling/gdbserver-riscv: [ 28, 29 ]
-      debuggers/ashling/gdbserver-riscv-vsd: [ 10, 11 ]
+      debuggers/ashling/gdbserver-riscv-vsd: [ 9, 10 ]
       drivers/ashling/opella-ld: [ 36 ]
-      drivers/ashling/opella-xd: [ 37 ]
-      drivers/ashling/vitra-xs: [ 38 ]
+      drivers/ashling/opella-xd: [ 38 ]
+      drivers/ashling/vitra-xs: [ 37 ]
       examples/ashling/arc-sdk-examples: [ 30 ]
       examples/ashling/arm-32-sdk-examples: [ 31 ]
       examples/ashling/mips-sdk-examples: [ 32 ]
       examples/ashling/risc-v-qemu-sdk-examples: [ 33 ]
       examples/ashling/risc-v-sdk-examples: [ 34 ]
       examples/ashling/vsd-sdk-examples: [ 35 ]
-      rules/ashling/udev: [ 9 ]
+      rules/ashling/udev: [ 11 ]
       runtimes/ashling/vsruntime: [ 8 ]
       sdks/ashling/arc-sdk: [ 12, 13 ]
       sdks/ashling/arm-32-sdk: [ 14, 15 ]
@@ -72,7 +73,7 @@ indexes:
       sdks/ashling/risc-v-sdk-qemu: [ 21 ]
       sdks/ashling/vsd-sdk: [ 22, 23 ]
       tools/ashling/build-tools: [ 7 ]
-      tools/ashling/cli: [ 39 ]
+      tools/ashling/cli: [ 39, 40 ]
       tools/ashling/license-activator: [ 27 ]
       tools/ashling/risc-v-qemu: [ 25 ]
     words:
@@ -137,7 +138,8 @@ indexes:
           36,
           37,
           38,
-          39
+          39,
+          40
         ]
       ashling/arc: [ 1, 2, 12, 13, 30 ]
       ashling/arc-sdk: [ 12, 13, 30 ]
@@ -153,21 +155,21 @@ indexes:
       ashling/arm-64-toolchain: [ 4 ]
       ashling/build: [ 7 ]
       ashling/build-tools: [ 7 ]
-      ashling/cli: [ 39 ]
-      ashling/gdbserver: [ 0, 5, 6, 10, 11, 28, 29 ]
+      ashling/cli: [ 39, 40 ]
+      ashling/gdbserver: [ 0, 5, 6, 9, 10, 28, 29 ]
       ashling/gdbserver-arc: [ 0 ]
       ashling/gdbserver-arm: [ 5, 6 ]
-      ashling/gdbserver-riscv: [ 10, 11, 28, 29 ]
-      ashling/gdbserver-riscv-vsd: [ 10, 11 ]
+      ashling/gdbserver-riscv: [ 9, 10, 28, 29 ]
+      ashling/gdbserver-riscv-vsd: [ 9, 10 ]
       ashling/license: [ 27 ]
       ashling/license-activator: [ 27 ]
       ashling/mips: [ 18, 26, 32 ]
       ashling/mips-sdk: [ 18, 32 ]
       ashling/mips-sdk-examples: [ 32 ]
       ashling/mips-toolchain: [ 26 ]
-      ashling/opella: [ 36, 37 ]
+      ashling/opella: [ 36, 38 ]
       ashling/opella-ld: [ 36 ]
-      ashling/opella-xd: [ 37 ]
+      ashling/opella-xd: [ 38 ]
       ashling/risc: [ 19, 20, 21, 25, 33, 34 ]
       ashling/risc-v: [ 19, 20, 21, 25, 33, 34 ]
       ashling/risc-v-qemu: [ 25, 33 ]
@@ -178,16 +180,16 @@ indexes:
       ashling/risc-v-sdk-qemu: [ 21 ]
       ashling/riscv: [ 24 ]
       ashling/riscv-toolchain: [ 24 ]
-      ashling/udev: [ 9 ]
-      ashling/vitra: [ 38 ]
-      ashling/vitra-xs: [ 38 ]
+      ashling/udev: [ 11 ]
+      ashling/vitra: [ 37 ]
+      ashling/vitra-xs: [ 37 ]
       ashling/vsd: [ 22, 23, 35 ]
       ashling/vsd-sdk: [ 22, 23, 35 ]
       ashling/vsd-sdk-examples: [ 35 ]
       ashling/vsruntime: [ 8 ]
       build: [ 7 ]
       build-tools: [ 7 ]
-      cli: [ 39 ]
+      cli: [ 39, 40 ]
       compilers: [ 1, 2, 3, 4, 24, 26 ]
       compilers/ashling: [ 1, 2, 3, 4, 24, 26 ]
       compilers/ashling/arc: [ 1, 2 ]
@@ -201,20 +203,20 @@ indexes:
       compilers/ashling/mips-toolchain: [ 26 ]
       compilers/ashling/riscv: [ 24 ]
       compilers/ashling/riscv-toolchain: [ 24 ]
-      debuggers: [ 0, 5, 6, 10, 11, 28, 29 ]
-      debuggers/ashling: [ 0, 5, 6, 10, 11, 28, 29 ]
-      debuggers/ashling/gdbserver: [ 0, 5, 6, 10, 11, 28, 29 ]
+      debuggers: [ 0, 5, 6, 9, 10, 28, 29 ]
+      debuggers/ashling: [ 0, 5, 6, 9, 10, 28, 29 ]
+      debuggers/ashling/gdbserver: [ 0, 5, 6, 9, 10, 28, 29 ]
       debuggers/ashling/gdbserver-arc: [ 0 ]
       debuggers/ashling/gdbserver-arm: [ 5, 6 ]
-      debuggers/ashling/gdbserver-riscv: [ 10, 11, 28, 29 ]
-      debuggers/ashling/gdbserver-riscv-vsd: [ 10, 11 ]
+      debuggers/ashling/gdbserver-riscv: [ 9, 10, 28, 29 ]
+      debuggers/ashling/gdbserver-riscv-vsd: [ 9, 10 ]
       drivers: [ 36, 37, 38 ]
       drivers/ashling: [ 36, 37, 38 ]
-      drivers/ashling/opella: [ 36, 37 ]
+      drivers/ashling/opella: [ 36, 38 ]
       drivers/ashling/opella-ld: [ 36 ]
-      drivers/ashling/opella-xd: [ 37 ]
-      drivers/ashling/vitra: [ 38 ]
-      drivers/ashling/vitra-xs: [ 38 ]
+      drivers/ashling/opella-xd: [ 38 ]
+      drivers/ashling/vitra: [ 37 ]
+      drivers/ashling/vitra-xs: [ 37 ]
       examples: [ 30, 31, 32, 33, 34, 35 ]
       examples/ashling: [ 30, 31, 32, 33, 34, 35 ]
       examples/ashling/arc: [ 30 ]
@@ -237,11 +239,11 @@ indexes:
       examples/ashling/vsd: [ 35 ]
       examples/ashling/vsd-sdk: [ 35 ]
       examples/ashling/vsd-sdk-examples: [ 35 ]
-      gdbserver: [ 0, 5, 6, 10, 11, 28, 29 ]
+      gdbserver: [ 0, 5, 6, 9, 10, 28, 29 ]
       gdbserver-arc: [ 0 ]
       gdbserver-arm: [ 5, 6 ]
-      gdbserver-riscv: [ 10, 11, 28, 29 ]
-      gdbserver-riscv-vsd: [ 10, 11 ]
+      gdbserver-riscv: [ 9, 10, 28, 29 ]
+      gdbserver-riscv-vsd: [ 9, 10 ]
       ld: [ 36 ]
       license: [ 27 ]
       license-activator: [ 27 ]
@@ -249,9 +251,9 @@ indexes:
       mips-sdk: [ 18, 32 ]
       mips-sdk-examples: [ 32 ]
       mips-toolchain: [ 26 ]
-      opella: [ 36, 37 ]
+      opella: [ 36, 38 ]
       opella-ld: [ 36 ]
-      opella-xd: [ 37 ]
+      opella-xd: [ 38 ]
       qemu: [ 21, 25, 33 ]
       qemu-sdk: [ 33 ]
       qemu-sdk-examples: [ 33 ]
@@ -263,12 +265,12 @@ indexes:
       risc-v-sdk: [ 19, 20, 21, 34 ]
       risc-v-sdk-examples: [ 34 ]
       risc-v-sdk-qemu: [ 21 ]
-      riscv: [ 10, 11, 24, 28, 29 ]
+      riscv: [ 9, 10, 24, 28, 29 ]
       riscv-toolchain: [ 24 ]
-      riscv-vsd: [ 10, 11 ]
-      rules: [ 9 ]
-      rules/ashling: [ 9 ]
-      rules/ashling/udev: [ 9 ]
+      riscv-vsd: [ 9, 10 ]
+      rules: [ 11 ]
+      rules/ashling: [ 11 ]
+      rules/ashling/udev: [ 11 ]
       runtimes: [ 8 ]
       runtimes/ashling: [ 8 ]
       runtimes/ashling/vsruntime: [ 8 ]
@@ -313,17 +315,17 @@ indexes:
       sdks/ashling/vsd: [ 22, 23 ]
       sdks/ashling/vsd-sdk: [ 22, 23 ]
       toolchain: [ 1, 2, 3, 4, 24, 26 ]
-      tools: [ 7, 25, 27, 39 ]
-      tools/ashling: [ 7, 25, 27, 39 ]
+      tools: [ 7, 25, 27, 39, 40 ]
+      tools/ashling: [ 7, 25, 27, 39, 40 ]
       tools/ashling/build: [ 7 ]
       tools/ashling/build-tools: [ 7 ]
-      tools/ashling/cli: [ 39 ]
+      tools/ashling/cli: [ 39, 40 ]
       tools/ashling/license: [ 27 ]
       tools/ashling/license-activator: [ 27 ]
       tools/ashling/risc: [ 25 ]
       tools/ashling/risc-v: [ 25 ]
       tools/ashling/risc-v-qemu: [ 25 ]
-      udev: [ 9 ]
+      udev: [ 11 ]
       v: [ 19, 20, 21, 25, 33, 34 ]
       v-qemu: [ 25, 33 ]
       v-qemu-sdk: [ 33 ]
@@ -331,17 +333,17 @@ indexes:
       v-sdk: [ 19, 20, 21, 34 ]
       v-sdk-examples: [ 34 ]
       v-sdk-qemu: [ 21 ]
-      vitra: [ 38 ]
-      vitra-xs: [ 38 ]
-      vsd: [ 10, 11, 22, 23, 35 ]
+      vitra: [ 37 ]
+      vitra-xs: [ 37 ]
+      vsd: [ 9, 10, 22, 23, 35 ]
       vsd-sdk: [ 22, 23, 35 ]
       vsd-sdk-examples: [ 35 ]
       vsruntime: [ 8 ]
-      xd: [ 37 ]
-      xs: [ 38 ]
+      xd: [ 38 ]
+      xs: [ 37 ]
   SemverKey/version:
     keys:
-      1.0.0: [ 9, 30, 31, 32, 33, 34, 35, 36, 37, 38 ]
+      1.0.0: [ 11, 30, 31, 32, 33, 34, 35, 36, 37, 38 ]
       3.27.7: [ 7 ]
       6.2.50: [ 25 ]
       10.1.0: [ 26 ]
@@ -351,8 +353,8 @@ indexes:
       13.3.1: [ 4 ]
       14.51.36247: [ 8 ]
       26.3.0: [ 27 ]
-      26.4.0: [ 0, 2, 6, 10, 12, 14, 16, 18, 19, 21, 22, 28, 39 ]
-      26.4.1: [ 5, 11, 13, 15, 17, 20, 23, 29 ]
+      26.4.0: [ 0, 2, 5, 9, 12, 14, 16, 18, 19, 21, 22, 28, 39 ]
+      26.4.1: [ 6, 10, 13, 15, 17, 20, 23, 29, 40 ]
   StringKey/summary:
     keys:
       ARC toolchain for Ashling RiscFree: [ 2 ]
@@ -364,13 +366,13 @@ indexes:
       Ashling License Activator: [ 27 ]
       Ashling MIPS SDK example projects: [ 32 ]
       Ashling Opella-LD USB driver: [ 36 ]
-      Ashling Opella-XD USB driver: [ 37 ]
-      Ashling probe udev rules: [ 9 ]
+      Ashling Opella-XD USB driver: [ 38 ]
+      Ashling probe udev rules: [ 11 ]
       Ashling RISC-V GDB server: [ 28, 29 ]
-      Ashling RISC-V GDB Server for VSD: [ 10, 11 ]
+      Ashling RISC-V GDB Server for VSD: [ 9, 10 ]
       Ashling RISC-V SDK example projects: [ 34 ]
       Ashling RISC-V SDK for QEMU example projects: [ 33 ]
-      Ashling RiscFree headless CLI: [ 39 ]
+      Ashling RiscFree headless CLI: [ 39, 40 ]
       Ashling SDK for Arm AArch32: [ 14, 15 ]
       Ashling SDK for Arm AArch64: [ 16, 17 ]
       Ashling SDK for MIPS: [ 18 ]
@@ -378,7 +380,7 @@ indexes:
       Ashling SDK for RISC-V: [ 19, 20 ]
       Ashling SDK for RISC-V QEMU: [ 21 ]
       Ashling SDK for VSD: [ 22, 23 ]
-      Ashling Vitra-XS USB driver: [ 38 ]
+      Ashling Vitra-XS USB driver: [ 37 ]
       Ashling VSD SDK example projects: [ 35 ]
       GNU ARC debugger for Ashling RiscFree: [ 1 ]
       GNU Arm 32 toolchain for Ashling RiscFree: [ 3 ]
@@ -435,26 +437,27 @@ indexes:
           36,
           37,
           38,
-          39
+          39,
+          40
         ]
       BusyBox: [ 7 ]
       C: [ 8 ]
-      CLI: [ 39 ]
+      CLI: [ 39, 40 ]
       CMake: [ 7 ]
-      GDB: [ 0, 5, 6, 10, 11, 28, 29 ]
+      GDB: [ 0, 5, 6, 9, 10, 28, 29 ]
       GNU: [ 1, 3, 4, 24, 26 ]
       LD: [ 36 ]
       License: [ 27 ]
       MIPS: [ 0, 12, 13, 18, 26, 32 ]
       Microsoft: [ 8 ]
-      Opella: [ 36, 37 ]
+      Opella: [ 36, 38 ]
       Opella-LD: [ 36 ]
-      Opella-XD: [ 37 ]
+      Opella-XD: [ 38 ]
       QEMU: [ 21, 25, 33 ]
-      RISC: [ 10, 11, 19, 20, 21, 24, 25, 26, 28, 29, 33, 34 ]
-      RISC-V: [ 10, 11, 19, 20, 21, 24, 25, 26, 28, 29, 33, 34 ]
+      RISC: [ 9, 10, 19, 20, 21, 24, 25, 26, 28, 29, 33, 34 ]
+      RISC-V: [ 9, 10, 19, 20, 21, 24, 25, 26, 28, 29, 33, 34 ]
       Redistributable: [ 8 ]
-      RiscFree: [ 1, 2, 3, 4, 24, 39 ]
+      RiscFree: [ 1, 2, 3, 4, 24, 39, 40 ]
       SDK:
         [
           12,
@@ -476,17 +479,17 @@ indexes:
           34,
           35
         ]
-      Server: [ 0, 5, 6, 10, 11 ]
+      Server: [ 0, 5, 6, 9, 10 ]
       Standard: [ 5, 6 ]
       Tools: [ 26 ]
       USB: [ 36, 37, 38 ]
-      V: [ 10, 11, 19, 20, 21, 24, 25, 26, 28, 29, 33, 34 ]
-      VSD: [ 10, 11, 22, 23, 35 ]
+      V: [ 9, 10, 19, 20, 21, 24, 25, 26, 28, 29, 33, 34 ]
+      VSD: [ 9, 10, 22, 23, 35 ]
       Visual: [ 8 ]
-      Vitra: [ 38 ]
-      Vitra-XS: [ 38 ]
-      XD: [ 37 ]
-      XS: [ 38 ]
+      Vitra: [ 37 ]
+      Vitra-XS: [ 37 ]
+      XD: [ 38 ]
+      XS: [ 37 ]
       build: [ 7, 25 ]
       build): [ 25 ]
       debugger: [ 1 ]
@@ -502,8 +505,8 @@ indexes:
           4,
           5,
           6,
+          9,
           10,
-          11,
           12,
           13,
           14,
@@ -521,13 +524,13 @@ indexes:
           26,
           33
         ]
-      headless: [ 39 ]
+      headless: [ 39, 40 ]
       make: [ 7 ]
       make): [ 7 ]
-      probe: [ 9 ]
+      probe: [ 11 ]
       projects: [ 30, 31, 32, 33, 34, 35 ]
-      rules: [ 9 ]
+      rules: [ 11 ]
       server: [ 28, 29 ]
       toolchain: [ 2, 3, 4, 24 ]
       tools: [ 7 ]
-      udev: [ 9 ]
+      udev: [ 11 ]
