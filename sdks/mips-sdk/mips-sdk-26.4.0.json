@@ -1,0 +1,32 @@
+{
+  "id": "sdks/ashling/mips-sdk",
+  "version": "26.4.0",
+  "summary": "Ashling SDK for MIPS",
+  "description": "Build and debug embedded applications for MIPS RISC-V cores. Compile with the MIPS GNU Tools for RISC-V (bare metal and Linux), debug on target hardware through an Ashling Opella-LD, Opella-XD or Vitra-XS probe with the Ashling GDB server, and get started quickly from the included example projects.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "registries": [
+    {
+      "kind": "artifact",
+      "name": "ashling",
+      "location": "https://github.com/AshlingMicrosystems/ashling-vcpkg-registry/archive/refs/heads/main.zip"
+    }
+  ],
+  "requires": {
+    "ashling:compilers/ashling/mips-toolchain": "10.1.0",
+    "ashling:debuggers/ashling/gdbserver-riscv": "26.4.0",
+    "ashling:tools/ashling/license-activator": "26.3.0",
+    "ashling:tools/ashling/cli": "26.4.0",
+    "ashling:tools/ashling/build-tools": "3.27.7",
+    "ashling:examples/ashling/mips-sdk-examples": "1.0.0",
+    "ashling:drivers/ashling/opella-ld": "1.0.0",
+    "ashling:drivers/ashling/opella-xd": "1.0.0",
+    "ashling:drivers/ashling/vitra-xs": "1.0.0",
+    "ashling:runtimes/ashling/vsruntime": "14.51.36247",
+    "ashling:rules/ashling/udev": "1.0.0"
+  }
+}
