@@ -2,7 +2,7 @@
   "id": "examples/ashling/mips-sdk-examples",
   "version": "1.0.0",
   "summary": "Ashling MIPS SDK example projects",
-  "description": "Getting-started example projects for the Ashling MIPS SDK (one zip per project)",
+  "description": "Getting-started CMake example projects for the Ashling MIPS SDK (one zip per project)",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",
@@ -13,7 +13,7 @@
     "windows": {
       "install": {
         "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/examples/mips-sdk/examples.zip",
-        "sha256": "A736988D2E86E61B3C81BF32CF6A0F61A845CDB24D4FAA0C31E127CA4ED38A97",
+        "sha256": "17513832D140D5D8EE78439644499D03D60F4FB599A7EBE5F67B9722D6E1CD19",
         "strip": 1
       }
     }
