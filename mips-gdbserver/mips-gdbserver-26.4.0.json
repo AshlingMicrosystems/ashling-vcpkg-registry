@@ -1,0 +1,38 @@
+{
+  "id": "debuggers/ashling/gdbserver-riscv-mips",
+  "version": "26.4.0",
+  "summary": "Ashling RISC-V GDB server for MIPS",
+  "description": "GDB server and probe tools for debugging MIPS RISC-V cores (I8500, P8700) via Ashling probes, with the King-V and Shogun debug monitors and the dqer trace decoder.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/mips-gdbserver/gdbserver-riscv-mips-win-x86_64-26.4.0.zip",
+        "sha256": "41F29420F4226FE26270A964082EDEE0F3B70D75AF76068B702E4CA323707AB0",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": [
+            "gdbserver-riscv"
+          ],
+          "DEVICE_DB": [
+            "common/devices_db"
+          ],
+          "GUI_OPXD_LIB": [
+            "guiopxdif.dll"
+          ]
+        },
+        "tools": {
+          "ash-riscv-gdb-server": "gdbserver-riscv/ash-riscv-gdb-server.exe",
+          "opxddiag": "gdbserver-riscv/opxddiag.exe"
+        }
+      }
+    }
+  }
+}
