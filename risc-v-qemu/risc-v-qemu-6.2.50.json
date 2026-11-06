@@ -2,7 +2,7 @@
   "id": "tools/ashling/risc-v-qemu",
   "version": "6.2.50",
   "summary": "QEMU for RISC-V (Ashling build)",
-  "description": "QEMU system emulator builds (riscv32/riscv64) packaged for the Ashling RiscFree SDK.",
+  "description": "QEMU emulator for running and debugging 32-bit and 64-bit RISC-V programs without target hardware.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",

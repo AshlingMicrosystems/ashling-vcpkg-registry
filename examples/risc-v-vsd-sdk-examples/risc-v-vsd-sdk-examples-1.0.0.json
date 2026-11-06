@@ -2,7 +2,7 @@
   "id": "examples/ashling/vsd-sdk-examples",
   "version": "1.0.0",
   "summary": "Ashling VSD SDK example projects",
-  "description": "Getting-started example projects for the Ashling VSD SDK (one zip per project). The extension's 'Import example project from SDK' extracts this one into a folder the user picks.",
+  "description": "Example projects to get started with the Ashling SDK for VSD.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",

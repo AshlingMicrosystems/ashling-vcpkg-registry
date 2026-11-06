@@ -2,7 +2,7 @@
   "id": "compilers/ashling/riscv-toolchain",
   "version": "12.1.0",
   "summary": "GNU RISC-V toolchain for Ashling RiscFree",
-  "description": "GCC-based riscv64-unknown-elf cross-compilation toolchain (gcc, gdb, binutils) bundled with the Ashling RiscFree SDK.",
+  "description": "RISC-V GNU GCC toolchain (compiler and GDB debugger) for RISC-V devices.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",

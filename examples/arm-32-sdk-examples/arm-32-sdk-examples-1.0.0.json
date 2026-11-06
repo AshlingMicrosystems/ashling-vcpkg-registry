@@ -2,7 +2,7 @@
   "id": "examples/ashling/arm-32-sdk-examples",
   "version": "1.0.0",
   "summary": "Ashling ARM SDK example projects",
-  "description": "Getting-started example projects for the Ashling ARM SDK (one zip per project)",
+  "description": "Example projects to get started with the Ashling SDK for Arm AArch32.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",
