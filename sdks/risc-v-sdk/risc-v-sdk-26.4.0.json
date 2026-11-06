@@ -2,6 +2,7 @@
   "id": "sdks/ashling/risc-v-sdk",
   "version": "26.4.0",
   "summary": "Ashling SDK for RISC-V",
+  "options": [ "family:RISC-V" ],
   "description": "Build and debug embedded applications for RISC-V devices. Compile with the RISC-V GNU GCC toolchain, debug on target hardware through an Ashling Opella-LD, Opella-XD or Vitra-XS probe with the Ashling GDB server, and get started quickly from the included example projects.",
   "contacts": {
     "Ashling": {
