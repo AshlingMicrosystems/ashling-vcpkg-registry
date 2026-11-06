@@ -2,7 +2,7 @@
   "id": "debuggers/ashling/gdbserver-riscv-vsd",
   "version": "26.4.1",
   "summary": "Ashling RISC-V GDB Server for VSD",
-  "description": "Ashling RISC-V GDB Server for debugging VSD devices via Ashling Opella-LD.",
+  "description": "Ashling GDB server for debugging VSD RISC-V devices through Ashling debug probes.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",

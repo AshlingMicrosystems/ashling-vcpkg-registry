@@ -2,7 +2,7 @@
   "id": "runtimes/ashling/vsruntime",
   "version": "14.51.36247",
   "summary": "Microsoft Visual C++ Redistributable",
-  "description": "Microsoft Visual C++ 2015-2022 Redistributable installer (x64) needed by the Ashling Windows tools.",
+  "description": "Microsoft Visual C++ Redistributable (x64), needed by the Ashling tools on Windows.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",

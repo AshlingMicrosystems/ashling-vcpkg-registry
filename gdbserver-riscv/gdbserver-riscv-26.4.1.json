@@ -2,7 +2,7 @@
   "id": "debuggers/ashling/gdbserver-riscv",
   "version": "26.4.1",
   "summary": "Ashling RISC-V GDB server",
-  "description": "GDB server and JTAG probe tooling for debugging RISC-V targets via Ashling probes.",
+  "description": "Ashling GDB server for debugging RISC-V devices through Ashling debug probes.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",

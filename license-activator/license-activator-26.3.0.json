@@ -2,7 +2,7 @@
   "id": "tools/ashling/license-activator",
   "version": "26.3.0",
   "summary": "Ashling License Activator",
-  "description": "Standalone license activation tool for the Ashling RiscFree SDK.",
+  "description": "Activates the license for the Ashling SDK tools.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",

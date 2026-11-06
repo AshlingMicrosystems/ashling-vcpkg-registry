@@ -2,7 +2,7 @@
   "id": "drivers/ashling/opella-xd",
   "version": "1.0.0",
   "summary": "Ashling Opella-XD USB driver",
-  "description": "Signed Windows driver package (libusb0) for the Ashling Opella-XD debug probe.",
+  "description": "Windows USB driver for the Ashling Opella-XD debug probe.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",

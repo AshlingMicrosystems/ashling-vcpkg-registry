@@ -2,7 +2,7 @@
   "id": "tools/ashling/cli",
   "version": "26.4.0",
   "summary": "Ashling RiscFree headless CLI",
-  "description": "Headless Eclipse-based command-line application (ashling-cli) for the Ashling RiscFree SDK. Ships with its own bundled JRE.",
+  "description": "Ashling command-line tool the extension uses to scan for debug probes and list the supported devices.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",

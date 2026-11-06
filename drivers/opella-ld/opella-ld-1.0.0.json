@@ -2,7 +2,7 @@
   "id": "drivers/ashling/opella-ld",
   "version": "1.0.0",
   "summary": "Ashling Opella-LD USB driver",
-  "description": "Signed Windows driver package (WinUSB) for the Ashling Opella-LD debug probe.",
+  "description": "Windows USB driver for the Ashling Opella-LD debug probe.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",

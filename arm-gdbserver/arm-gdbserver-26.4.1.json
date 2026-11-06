@@ -2,7 +2,7 @@
   "id": "debuggers/ashling/gdbserver-arm",
   "version": "26.4.1",
   "summary": "Ashling ARM GDB Server for Standard Arm devices",
-  "description": "Ashling ARM GDB Server for debugging Arm devices via Ashling Opella-LD.",
+  "description": "Ashling GDB server for debugging Arm devices through Ashling debug probes.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",

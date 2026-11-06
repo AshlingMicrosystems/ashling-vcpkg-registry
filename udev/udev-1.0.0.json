@@ -2,7 +2,7 @@
   "id": "rules/ashling/udev",
   "version": "1.0.0",
   "summary": "Ashling probe udev rules",
-  "description": "Linux udev rules (60-ashling.rules) granting non-root access to Ashling Opella-XD, Opella-LD, Vitra-XS and Digilent HS2 probes. Copy to /etc/udev/rules.d as root.",
+  "description": "Linux udev rules that let non-root users access Ashling debug probes and the Digilent HS2.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",
