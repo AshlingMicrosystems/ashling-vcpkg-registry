@@ -2,6 +2,7 @@
   "id": "sdks/ashling/vsd-sdk",
   "version": "26.4.0",
   "summary": "Ashling SDK for VSD",
+  "options": [ "family:RISC-V" ],
   "description": "Build and debug embedded applications for VSD RISC-V devices. Compile with the RISC-V GNU GCC toolchain, debug on target hardware through Ashling debug probes with the Ashling GDB server, and get started quickly from the included example projects.",
   "contacts": {
     "Ashling": {
