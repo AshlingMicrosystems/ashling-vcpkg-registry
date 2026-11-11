@@ -14,7 +14,7 @@
     {
       "kind": "artifact",
       "name": "ashling",
-      "location": "https://github.com/AshlingMicrosystems/ashling-vcpkg-registry/archive/refs/heads/main.zip"
+      "location": "https://github.com/AshlingMicrosystems/ashling-vcpkg-registry/archive/refs/heads/add-mips-atlas-and-arc-sdks.zip"
     }
   ],
   "requires": {
