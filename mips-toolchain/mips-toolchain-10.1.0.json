@@ -13,7 +13,7 @@
     "windows": {
       "install": {
         "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/mips-toolchain/mips-toolchain-win-x86_64-10.1.0.zip",
-        "sha256": "EEA97B8AE1B403BD5A6B4D104086CC7D3118C618AA558F930456734576F3EA59",
+        "sha256": "6C60923AAF54C1CA0D3DA5259DF1379D781780D4EC964F392A7103A1A8BB7182",
         "strip": 1
       },
       "exports": {
@@ -29,6 +29,28 @@
           "riscv64-mti-elf-gdb": "riscv64-mti-elf/bin/riscv64-mti-elf-gdb.exe",
           "riscv64-mti-linux-gnu-gcc": "riscv64-mti-linux-gnu/bin/riscv64-mti-linux-gnu-gcc.exe",
           "riscv64-mti-linux-gnu-gdb": "riscv64-mti-linux-gnu/bin/riscv64-mti-linux-gnu-gdb.exe"
+        }
+      }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/mips-toolchain/mips-toolchain-linux-x86_64-10.1.0.tar.gz",
+        "sha256": "BF3411F48DB5237B28714FD600A6ACFDF60090F2FB57C613509ABC79ABC30244",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": [
+            "riscv64-mti-elf/bin",
+            "riscv64-mti-linux-gnu/bin"
+          ]
+        },
+        "tools": {
+          "GCC_TOOLCHAIN_10_1_0": "./riscv64-mti-elf/bin",
+          "riscv64-mti-elf-gcc": "riscv64-mti-elf/bin/riscv64-mti-elf-gcc",
+          "riscv64-mti-elf-gdb": "riscv64-mti-elf/bin/riscv64-mti-elf-gdb",
+          "riscv64-mti-linux-gnu-gcc": "riscv64-mti-linux-gnu/bin/riscv64-mti-linux-gnu-gcc",
+          "riscv64-mti-linux-gnu-gdb": "riscv64-mti-linux-gnu/bin/riscv64-mti-linux-gnu-gdb"
         }
       }
     }
