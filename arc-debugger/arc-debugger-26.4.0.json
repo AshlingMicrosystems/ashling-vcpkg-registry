@@ -1,7 +1,7 @@
 {
-  "id": "compilers/ashling/arc-toolchain",
+  "id": "debuggers/ashling/arc-debugger",
   "version": "26.4.0",
-  "summary": "ARC toolchain for Ashling RiscFree",
+  "summary": "ARC debugger for Ashling RiscFree",
   "description": "GDB debuggers for MIPS ARC targets (arc64-elf64-gdb, arc-elf32-gdb). No compiler is included.",
   "contacts": {
     "Ashling": {

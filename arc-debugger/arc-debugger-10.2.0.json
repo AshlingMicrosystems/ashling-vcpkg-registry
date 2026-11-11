@@ -1,5 +1,5 @@
 {
-  "id": "compilers/ashling/arc-toolchain",
+  "id": "debuggers/ashling/arc-debugger",
   "version": "10.2.0",
   "summary": "GNU ARC debugger for Ashling RiscFree",
   "description": "arc-elf32-gdb (GDB 10.2) for MIPS ARC targets. Debugger only: no compiler is included.",

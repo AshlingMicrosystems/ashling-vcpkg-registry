@@ -1,8 +1,8 @@
 items:
   [
     arc-gdbserver/arc-gdbserver-26.4.0.json,
-    arc-toolchain/arc-toolchain-10.2.0.json,
-    arc-toolchain/arc-toolchain-26.4.0.json,
+    arc-debugger/arc-debugger-10.2.0.json,
+    arc-debugger/arc-debugger-26.4.0.json,
     arm-32-toolchain/arm-32-toolchain-10.3.1.json,
     arm-64-toolchain/arm-64-toolchain-13.3.1.json,
     arm-gdbserver/arm-gdbserver-26.4.1.json,
@@ -46,11 +46,11 @@ items:
 indexes:
   IdentityKey/id:
     keys:
-      compilers/ashling/arc-toolchain: [ 1, 2 ]
       compilers/ashling/arm-32-toolchain: [ 3 ]
       compilers/ashling/arm-64-toolchain: [ 4 ]
       compilers/ashling/mips-toolchain: [ 26 ]
       compilers/ashling/riscv-toolchain: [ 23 ]
+      debuggers/ashling/arc-debugger: [ 1, 2 ]
       debuggers/ashling/gdbserver-arc: [ 0 ]
       debuggers/ashling/gdbserver-arm: [ 5, 6 ]
       debuggers/ashling/gdbserver-riscv: [ 29, 30 ]
@@ -88,9 +88,9 @@ indexes:
       64-toolchain: [ 4 ]
       activator: [ 28 ]
       arc: [ 0, 1, 2, 12, 13, 31 ]
+      arc-debugger: [ 1, 2 ]
       arc-sdk: [ 12, 13, 31 ]
       arc-sdk-examples: [ 31 ]
-      arc-toolchain: [ 1, 2 ]
       arm: [ 3, 4, 5, 6, 14, 15, 16, 17, 32 ]
       arm-32: [ 3, 16, 17, 32 ]
       arm-32-sdk: [ 16, 17, 32 ]
@@ -145,9 +145,9 @@ indexes:
           41
         ]
       ashling/arc: [ 1, 2, 12, 13, 31 ]
+      ashling/arc-debugger: [ 1, 2 ]
       ashling/arc-sdk: [ 12, 13, 31 ]
       ashling/arc-sdk-examples: [ 31 ]
-      ashling/arc-toolchain: [ 1, 2 ]
       ashling/arm: [ 3, 4, 14, 15, 16, 17, 32 ]
       ashling/arm-32: [ 3, 16, 17, 32 ]
       ashling/arm-32-sdk: [ 16, 17, 32 ]
@@ -194,10 +194,8 @@ indexes:
       build: [ 7 ]
       build-tools: [ 7 ]
       cli: [ 40, 41 ]
-      compilers: [ 1, 2, 3, 4, 23, 26 ]
-      compilers/ashling: [ 1, 2, 3, 4, 23, 26 ]
-      compilers/ashling/arc: [ 1, 2 ]
-      compilers/ashling/arc-toolchain: [ 1, 2 ]
+      compilers: [ 3, 4, 23, 26 ]
+      compilers/ashling: [ 3, 4, 23, 26 ]
       compilers/ashling/arm: [ 3, 4 ]
       compilers/ashling/arm-32: [ 3 ]
       compilers/ashling/arm-32-toolchain: [ 3 ]
@@ -207,8 +205,11 @@ indexes:
       compilers/ashling/mips-toolchain: [ 26 ]
       compilers/ashling/riscv: [ 23 ]
       compilers/ashling/riscv-toolchain: [ 23 ]
-      debuggers: [ 0, 5, 6, 9, 10, 27, 29, 30 ]
-      debuggers/ashling: [ 0, 5, 6, 9, 10, 27, 29, 30 ]
+      debugger: [ 1, 2 ]
+      debuggers: [ 0, 1, 2, 5, 6, 9, 10, 27, 29, 30 ]
+      debuggers/ashling: [ 0, 1, 2, 5, 6, 9, 10, 27, 29, 30 ]
+      debuggers/ashling/arc: [ 1, 2 ]
+      debuggers/ashling/arc-debugger: [ 1, 2 ]
       debuggers/ashling/gdbserver: [ 0, 5, 6, 9, 10, 27, 29, 30 ]
       debuggers/ashling/gdbserver-arc: [ 0 ]
       debuggers/ashling/gdbserver-arm: [ 5, 6 ]
@@ -321,7 +322,7 @@ indexes:
       sdks/ashling/risc-v-sdk-qemu: [ 22 ]
       sdks/ashling/vsd: [ 21, 24 ]
       sdks/ashling/vsd-sdk: [ 21, 24 ]
-      toolchain: [ 1, 2, 3, 4, 23, 26 ]
+      toolchain: [ 3, 4, 23, 26 ]
       tools: [ 7, 25, 28, 40, 41 ]
       tools/ashling: [ 7, 25, 28, 40, 41 ]
       tools/ashling/build: [ 7 ]
@@ -502,7 +503,7 @@ indexes:
       XS: [ 39 ]
       build: [ 7, 25 ]
       build): [ 25 ]
-      debugger: [ 1 ]
+      debugger: [ 1, 2 ]
       devices: [ 0, 5, 6 ]
       driver: [ 37, 38, 39 ]
       example: [ 31, 32, 33, 34, 35, 36 ]
@@ -542,6 +543,6 @@ indexes:
       projects: [ 31, 32, 33, 34, 35, 36 ]
       rules: [ 11 ]
       server: [ 27, 29, 30 ]
-      toolchain: [ 2, 3, 4, 23 ]
+      toolchain: [ 3, 4, 23 ]
       tools: [ 7 ]
       udev: [ 11 ]
