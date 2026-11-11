@@ -2,7 +2,7 @@
   "id": "runtimes/ashling/vsruntime",
   "version": "14.51.36247",
   "summary": "Microsoft Visual C++ Redistributable",
-  "description": "Microsoft Visual C++ Redistributable (x64), needed by the Ashling tools on Windows.",
+  "description": "Microsoft Visual C++ Redistributable (x64 and x86), needed by the Ashling tools on Windows.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",
@@ -12,8 +12,8 @@
   "demands": {
     "windows": {
       "install": {
-        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/vsruntime/vsruntime-win-x86_64-14.51.36247.zip",
-        "sha256": "F0D2431C6165C8FC236AB95B8A4E0B4F8714D680124CC7E1584365E69BA04D6D",
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/vsruntime/vsruntime-win-14.51.36247.zip",
+        "sha256": "3E5F9F76BFB47342CE24DB179E5F172F1523DCDADEF575E433FFBED005AB914A",
         "strip": 1
       }
     }
