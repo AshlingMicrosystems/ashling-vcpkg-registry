@@ -13,7 +13,7 @@
     "windows": {
       "install": {
         "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/mips-gdbserver/gdbserver-riscv-mips-win-x86_64-26.4.0.zip",
-        "sha256": "C2E2F74EC19E00837DB979811907CB734F62605A94F39995AD6B3C87541ADDCC",
+        "sha256": "63C81962AB228095842B1579E24FCF4400ED9A8947F0174D288EC74C7806D0DF",
         "strip": 1
       },
       "exports": {
@@ -37,7 +37,7 @@
     "linux": {
       "install": {
         "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/mips-gdbserver/gdbserver-riscv-mips-linux-x86_64-26.4.0.tar.gz",
-        "sha256": "BFD88142C6C23B48390B8B7C750A76707CDE40AF9586B57084E07456B45A514A",
+        "sha256": "5A8C1C68B5FFFE1A233DA3C313EA2FA60E9CA0984596C416519D134A208F2EA5",
         "strip": 1
       },
       "exports": {
