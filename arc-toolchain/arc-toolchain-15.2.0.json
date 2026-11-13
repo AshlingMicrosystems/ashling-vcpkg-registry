@@ -1,0 +1,46 @@
+{
+  "id": "compilers/ashling/arc-toolchain",
+  "version": "15.2.0",
+  "summary": "GNU Toolchain for MIPS ARC Classic",
+  "description": "GNU toolchain for MIPS ARC Classic processors (ARC 600/700, EM, HS3x, HS4x), arc-2026.03 release: GCC 15.2.0 and GDB, bare metal, Newlib, little endian.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "untar": "https://github.com/foss-for-MIPS-arc-processors/toolchain/releases/download/arc-2026.03-release/arc_gnu_2026.03_prebuilt_elf32_le_win_install.tar.xz",
+        "sha256": "2F5DE90B427AAE3989B3104AE433D52AD5FE73CA5918CE75DAF60A98ADAD749E",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "bin"
+        },
+        "tools": {
+          "GCC_TOOLCHAIN_15_2_0": "./bin",
+          "arc-snps-elf-gcc": "bin/arc-snps-elf-gcc.exe",
+          "arc-snps-elf-gdb": "bin/arc-snps-elf-gdb.exe"
+        }
+      }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://github.com/foss-for-MIPS-arc-processors/toolchain/releases/download/arc-2026.03-release/arc_gnu_2026.03_prebuilt_elf32_le_linux_install.tar.xz",
+        "sha256": "2A23341F1060DD102A064099DA3CD4AF0AF20FD3823F92AC0B4E28E670329D8D",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "arc-multilib-elf32/bin"
+        },
+        "tools": {
+          "GCC_TOOLCHAIN_15_2_0": "./arc-multilib-elf32/bin"
+        }
+      }
+    }
+  }
+}

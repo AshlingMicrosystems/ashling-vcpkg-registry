@@ -1,9 +1,9 @@
 {
   "id": "sdks/ashling/arc-sdk",
   "version": "26.4.0",
-  "summary": "Ashling SDK for ARC",
-  "options": [ "family:MIPS ARC" ],
-  "description": "Debug embedded applications on MIPS ARC devices through an Ashling Opella-XD, Opella-LD or Vitra-XS probe with the Ashling ARC GDB server, starting from the included prebuilt example projects. No compiler is included.",
+  "summary": "Ashling SDK for MIPS ARC Classic",
+  "options": [ "family:MIPS" ],
+  "description": "Build and debug embedded applications for MIPS ARC Classic processors (ARC 600/700, EM, HS3x, HS4x). Compile with the GNU toolchain for MIPS ARC, debug on target hardware through an Ashling Opella-XD, Opella-LD or Vitra-XS probe with the Ashling ARC GDB server, and get started quickly from the included example projects.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",
@@ -18,10 +18,12 @@
     }
   ],
   "requires": {
+    "ashling:compilers/ashling/arc-toolchain": "15.2.0",
     "ashling:debuggers/ashling/arc-debugger": "26.4.0",
     "ashling:debuggers/ashling/gdbserver-arc": "26.4.0",
     "ashling:tools/ashling/cli": "26.4.0",
     "ashling:tools/ashling/license-activator": "26.3.0",
+    "ashling:tools/ashling/build-tools": "3.27.7",
     "ashling:examples/ashling/arc-sdk-examples": "1.0.0",
     "ashling:drivers/ashling/opella-ld": "1.0.0",
     "ashling:drivers/ashling/opella-xd": "1.0.0",

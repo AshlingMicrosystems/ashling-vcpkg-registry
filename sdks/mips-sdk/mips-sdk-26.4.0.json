@@ -1,8 +1,8 @@
 {
   "id": "sdks/ashling/mips-sdk",
   "version": "26.4.0",
-  "summary": "Ashling SDK for MIPS Atlas",
-  "options": [ "family:RISC-V" ],
+  "summary": "Ashling SDK for MIPS ATLAS",
+  "options": [ "family:MIPS" ],
   "description": "Build and debug embedded applications for MIPS RISC-V cores. Compile with the MIPS GNU Tools for RISC-V (bare metal and Linux), debug on target hardware through Ashling debug probes with the Ashling GDB server, and get started quickly from the included example projects.",
   "contacts": {
     "Ashling": {

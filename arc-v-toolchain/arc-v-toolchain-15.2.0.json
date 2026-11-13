@@ -1,0 +1,46 @@
+{
+  "id": "compilers/ashling/arc-v-toolchain",
+  "version": "15.2.0",
+  "summary": "GNU Toolchain for MIPS ARC-V",
+  "description": "GNU toolchain for MIPS ARC-V (RISC-V) processors, arc-2026.03 release: GCC 15.2.0 and GDB, bare metal, Newlib, little endian.",
+  "contacts": {
+    "Ashling": {
+      "email": "support@ashling.com",
+      "role": "publisher"
+    }
+  },
+  "demands": {
+    "windows": {
+      "install": {
+        "untar": "https://github.com/foss-for-MIPS-arc-processors/toolchain/releases/download/arc-2026.03-release/arc_gnu_2026.03_prebuilt_riscv64_elf_le_win_install.tar.xz",
+        "sha256": "7F3E372B85560673C5779FE3034BA0B210F7D61594554231A9934FF55684DEED",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "bin"
+        },
+        "tools": {
+          "GCC_TOOLCHAIN_15_2_0": "./bin",
+          "riscv64-snps-elf-gcc": "bin/riscv64-snps-elf-gcc.exe",
+          "riscv64-snps-elf-gdb": "bin/riscv64-snps-elf-gdb.exe"
+        }
+      }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://github.com/foss-for-MIPS-arc-processors/toolchain/releases/download/arc-2026.03-release/arc_gnu_2026.03_prebuilt_riscv64_elf_le_linux_install.tar.xz",
+        "sha256": "9E05BA9EC478C74F10A3C451216D4E0849CF57EDB64F493E026E263212138B94",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": "riscv64-unknown-elf/bin"
+        },
+        "tools": {
+          "GCC_TOOLCHAIN_15_2_0": "./riscv64-unknown-elf/bin"
+        }
+      }
+    }
+  }
+}
