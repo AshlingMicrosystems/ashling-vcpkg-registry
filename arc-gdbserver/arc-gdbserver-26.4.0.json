@@ -13,7 +13,7 @@
     "windows": {
       "install": {
         "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arc-gdb-server/gdbserver-arc-win-x86_64-26.4.0.zip",
-        "sha256": "67210F53AF17EE1FE88D66F9AB73BD8349431C834F9DA4CF2BCAC6EEAF0EF6DF",
+        "sha256": "240CCC99C9AEC94DAB5E5AA5B1413D8CD6D89D6A77D272BB96D2E6FFE6307685",
         "strip": 1
       },
       "exports": {
@@ -31,6 +31,30 @@
         "tools": {
           "ash-arc-gdb-server": "gdbserver-arc/ash-arc-gdb-server.exe",
           "opxddiag": "gdbserver-arc/opxddiag.exe"
+        }
+      }
+    },
+    "linux": {
+      "install": {
+        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arc-gdb-server/gdbserver-arc-linux-x86_64-26.4.0.tar.gz",
+        "sha256": "079A54A8F2A128A05E83CEFF44CFF0A5291685F55B045A2C6A4176CC1CCF2EAF",
+        "strip": 1
+      },
+      "exports": {
+        "paths": {
+          "PATH": [
+            "gdbserver-arc"
+          ],
+          "DEVICE_DB": [
+            "common/devices_db"
+          ],
+          "GUI_OPXD_LIB": [
+            "libguiopxdif.so"
+          ]
+        },
+        "tools": {
+          "ash-arc-gdb-server": "gdbserver-arc/ash-arc-gdb-server",
+          "opxddiag": "gdbserver-arc/opxddiag"
         }
       }
     }
