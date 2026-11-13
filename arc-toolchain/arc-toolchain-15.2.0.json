@@ -12,8 +12,8 @@
   "demands": {
     "windows": {
       "install": {
-        "untar": "https://github.com/foss-for-MIPS-arc-processors/toolchain/releases/download/arc-2026.03-release/arc_gnu_2026.03_prebuilt_elf32_le_win_install.tar.xz",
-        "sha256": "2F5DE90B427AAE3989B3104AE433D52AD5FE73CA5918CE75DAF60A98ADAD749E",
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arc-toolchain/arc-toolchain-win-x86_64-15.2.0.zip",
+        "sha256": "9D6CA76D56C3F52865C259AC66658783030AE4CEEFC8D0646F34BADD9E610C8B",
         "strip": 1
       },
       "exports": {
@@ -29,16 +29,18 @@
     },
     "linux": {
       "install": {
-        "untar": "https://github.com/foss-for-MIPS-arc-processors/toolchain/releases/download/arc-2026.03-release/arc_gnu_2026.03_prebuilt_elf32_le_linux_install.tar.xz",
-        "sha256": "2A23341F1060DD102A064099DA3CD4AF0AF20FD3823F92AC0B4E28E670329D8D",
+        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arc-toolchain/arc-toolchain-linux-x86_64-15.2.0.tar.gz",
+        "sha256": "EA8BE93D2FA9A49810221DE59FC899C27B0D5772FE52A160C89D99F40834F222",
         "strip": 1
       },
       "exports": {
         "paths": {
-          "PATH": "arc-multilib-elf32/bin"
+          "PATH": "bin"
         },
         "tools": {
-          "GCC_TOOLCHAIN_15_2_0": "./arc-multilib-elf32/bin"
+          "GCC_TOOLCHAIN_15_2_0": "./bin",
+          "arc-snps-elf-gcc": "bin/arc-snps-elf-gcc",
+          "arc-snps-elf-gdb": "bin/arc-snps-elf-gdb"
         }
       }
     }
