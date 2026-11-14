@@ -12,8 +12,8 @@
   "demands": {
     "windows": {
       "install": {
-        "untar": "https://github.com/foss-for-MIPS-arc-processors/toolchain/releases/download/arc-2026.03-release/arc_gnu_2026.03_prebuilt_riscv64_elf_le_win_install.tar.xz",
-        "sha256": "7F3E372B85560673C5779FE3034BA0B210F7D61594554231A9934FF55684DEED",
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arc-v-toolchain/arc-v-toolchain-win-x86_64-15.2.0.zip",
+        "sha256": "72C34D67D056C23BF73F0B4653002CAE6039C1E5CF490954FCFF0A27B7F37EF8",
         "strip": 1
       },
       "exports": {
@@ -29,16 +29,18 @@
     },
     "linux": {
       "install": {
-        "untar": "https://github.com/foss-for-MIPS-arc-processors/toolchain/releases/download/arc-2026.03-release/arc_gnu_2026.03_prebuilt_riscv64_elf_le_linux_install.tar.xz",
-        "sha256": "9E05BA9EC478C74F10A3C451216D4E0849CF57EDB64F493E026E263212138B94",
+        "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/arc-v-toolchain/arc-v-toolchain-linux-x86_64-15.2.0.tar.gz",
+        "sha256": "9B657C2214AF7964BCCE93677ABFAC2CE8CA34A3236163A621E46D65D1534429",
         "strip": 1
       },
       "exports": {
         "paths": {
-          "PATH": "riscv64-unknown-elf/bin"
+          "PATH": "bin"
         },
         "tools": {
-          "GCC_TOOLCHAIN_15_2_0": "./riscv64-unknown-elf/bin"
+          "GCC_TOOLCHAIN_15_2_0": "./bin",
+          "riscv64-snps-elf-gcc": "bin/riscv64-snps-elf-gcc",
+          "riscv64-snps-elf-gdb": "bin/riscv64-snps-elf-gdb"
         }
       }
     }
