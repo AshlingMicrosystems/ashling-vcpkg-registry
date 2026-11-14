@@ -2,7 +2,7 @@
   "id": "examples/ashling/arc-sdk-examples",
   "version": "1.0.0",
   "summary": "Ashling ARC SDK example projects",
-  "description": "Prebuilt example projects to get started with the Ashling SDK for MIPS ARC.",
+  "description": "CMake example projects to build with the GNU toolchain for MIPS ARC Classic and debug with the Ashling SDK for MIPS ARC Classic.",
   "contacts": {
     "Ashling": {
       "email": "support@ashling.com",
@@ -13,7 +13,14 @@
     "windows": {
       "install": {
         "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/examples/arc-sdk/examples.zip",
-        "sha256": "628F38416735197C0C3579E0E95C667EEC038AFAE2323D5E273C7FFB2EDFB0E5",
+        "sha256": "34FB882A1B9F9812F0CFA5192B56CBA1EC5EB804F291DBCB35808B92461F21EF",
+        "strip": 1
+      }
+    },
+    "linux": {
+      "install": {
+        "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/examples/arc-sdk/examples.zip",
+        "sha256": "34FB882A1B9F9812F0CFA5192B56CBA1EC5EB804F291DBCB35808B92461F21EF",
         "strip": 1
       }
     }
