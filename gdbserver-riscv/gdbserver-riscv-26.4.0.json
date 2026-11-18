@@ -13,7 +13,7 @@
     "windows": {
       "install": {
         "unzip": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/risc-v-gdb-server/gdbserver-riscv-win-x86_64-26.4.0.zip",
-        "sha256": "6E6C1803C7955D6E13628D127B784ADAD61F4A6B2EC813A80F53F3BABEEEF1D8",
+        "sha256": "6C9AD514CF4B4D9E62B7C7BC4BB5D2A891940F5816F6B7E3AE60A02604DFC0F3",
         "strip": 1
       },
       "exports": {
@@ -31,7 +31,7 @@
     "linux": {
       "install": {
         "untar": "https://ashling-1.s3.eu-west-1.amazonaws.com/vcpkg-artifacts/risc-v-gdb-server/gdbserver-riscv-linux-x86_64-26.4.0.tar.gz",
-        "sha256": "FC53D57531B961D96234A0F69E04D9333DD03B8C16DBBAA8F66417C2E1936A2E",
+        "sha256": "DD22163CA0BF236764A4668DEF29AA4217FCD55D1B1FC533D7E7F82C3B2133AA",
         "strip": 1
       },
       "exports": {
